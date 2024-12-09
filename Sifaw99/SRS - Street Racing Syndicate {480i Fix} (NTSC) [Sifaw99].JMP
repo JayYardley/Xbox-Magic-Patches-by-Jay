@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=SRS - Street Racing Syndicate
+region=NTSC
+version=4E4D0013 (NM-019)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+052001000089
+050001000089

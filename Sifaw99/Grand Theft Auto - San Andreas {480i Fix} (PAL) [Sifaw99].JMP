@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Grand Theft Auto - San Andreas
+region=PAL
+version=54540082 (TT-130)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+83C820F30F11050C
+83C840F30F11050C

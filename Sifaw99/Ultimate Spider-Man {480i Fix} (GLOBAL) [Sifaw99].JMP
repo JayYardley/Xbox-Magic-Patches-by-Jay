@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Ultimate Spider-Man
+region=GLOBAL
+version=41560035 (AV-053)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+8B5328508B432C518B4B0452
+9090508B432C518B4B046A00

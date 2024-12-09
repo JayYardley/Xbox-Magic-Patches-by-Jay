@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Mashed
+region=GLOBAL
+version=454D000A (EM-010)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+C705E4A2470020000000
+C705749D470020000000
+# 480i (Interlaced) -> 480p (Progressive)
+C705E4A2470040000000
+C705749D470040000000

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Scooby-Doo! Mystery Mayhem
+region=GLOBAL
+version=5451000E (TQ-014)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+8B4828528B502C51
+9090528B502C6A00

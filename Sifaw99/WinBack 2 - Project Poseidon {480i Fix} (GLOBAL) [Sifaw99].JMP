@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=WinBack 2 - Project Poseidon
+region=GLOBAL
+version=4B4F0008 (KO-008)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+C744247020010000
+C744247040010000

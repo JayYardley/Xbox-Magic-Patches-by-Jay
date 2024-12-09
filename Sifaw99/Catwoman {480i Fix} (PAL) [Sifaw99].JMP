@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Catwoman
+region=PAL
+version=4541005C (EA-092)
+author=Sifaw99
+notes=480p Auto
+#480i (Interlaced) -> 480p (Progressive)
+0D20010000
+0D00010000

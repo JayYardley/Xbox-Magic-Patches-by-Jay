@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Outlaw Tennis
+region=PAL
+version=56550003 (TT-118)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+C705C0393D0020000000
+90909090909090909090

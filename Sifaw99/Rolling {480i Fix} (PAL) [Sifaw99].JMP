@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Rolling
+region=PAL
+version=53430007 (SC-007)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+39000374136A00B9CC80
+390003EB136A00B9CC80

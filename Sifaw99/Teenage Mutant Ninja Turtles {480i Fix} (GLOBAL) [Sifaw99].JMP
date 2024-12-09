@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Teenage Mutant Ninja Turtles
+region=GLOBAL
+version=4B4E001B (KN-027)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+E856840D006A20
+E856840D006A40
+# 480i (Interlaced) -> 480p (Progressive)
+C744243820010000
+C744243840010000
+# 480i (Interlaced) -> 480p (Progressive)
+8B5728508B4730508B472C518B4F0452
+508B4730508B472C518B4F04906A0090

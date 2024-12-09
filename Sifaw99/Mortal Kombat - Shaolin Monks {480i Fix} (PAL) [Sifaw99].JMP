@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Mortal Kombat - Shaolin Monks
+region=PAL
+version=4D570029 (MW-041)
+author=Sifaw99
+notes=480p Auto
+# 480i (Interlaced) -> 480p (Progressive)
+3CC7463420000000
+3CC7463400000000

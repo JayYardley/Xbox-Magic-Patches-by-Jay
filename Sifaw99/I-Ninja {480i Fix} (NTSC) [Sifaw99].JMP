@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=I-Ninja
+region=NTSC
+version=4E4D000F (NM-015)
+author=Sifaw99
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+82C920010000894A
+82C940010000894A
+# Widescreen
+81C920010000894A
+82C910000000894A
