@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Chicago Enforcer
+region=NTSC
+version=4B420005 (KB-005)
+author=SPPV
+notes=If game freezes, reboot, clear cache. Both Default.XBE and chicagoEnf.XBE required. 
+#Header Edit - Allowed Media & Region Flags
+00000000000000000000020200000100000002000000000000
+00000000000000000000FF0100400700000002000000000000
