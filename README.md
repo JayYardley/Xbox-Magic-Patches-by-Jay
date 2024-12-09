@@ -26,5 +26,7 @@ Any relevant information MUST be added after the "=" sign for each header. Heade
 + >AABBCCCDD
 + >DDCCBBAA
 
+The first line of a patch record (exluding the comment line), dictates the HEX value to "find". The second line is the HEX value that goes in it's place, effectively replacing the original data.
+
 Patch records can theoretically go on forever, however my patcher can realistically only handle about 200. If your patch requires more than 100 records then it is probably a bad patch. Most clean patches require about 1 to 6 patch records.
 If you were looking to create a .JMP file, download one from here and recycle the formatting I use.
