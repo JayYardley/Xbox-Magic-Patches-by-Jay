@@ -1,0 +1,28 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=NASCAR Thunder 2002
+region=NTSC
+version=TitleID 45410002 (EA-002)
+author=OldGreenAndWise
+notes=Native Widescreen Support, Fixes Menus
+#Menu Fix A
+68ABAAAA3F
+68398EE33F
+#Menu Fix B
+68ABAAAA3F
+68398EE33F
+#Menu Fix C
+68ABAAAA3F
+68398EE33F
+#Menu Fix D
+68ABAAAA3F
+68398EE33F
+#Menu Fix E
+68ABAAAA3F
+68398EE33F
+#Menu Fix F
+68ABAAAA3F
+68398EE33F
+#Menu Fix G
+68ABAAAA3F
+68398EE33F
