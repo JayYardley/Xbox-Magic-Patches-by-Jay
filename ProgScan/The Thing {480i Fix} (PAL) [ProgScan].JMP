@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Thing
+region=PAL
+version=5655000D (VU-013)
+author=ProgScan
+notes=
+#480i (Interlaced) -> 480p (Progressive)
+0BCA898D
+D1E28995

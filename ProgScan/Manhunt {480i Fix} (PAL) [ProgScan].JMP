@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Manhunt
+region=PAL
+version=54540019 (TT-025)
+author=ProgScan
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+8B15EC934100
+33D290909090

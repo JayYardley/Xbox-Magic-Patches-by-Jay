@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Hitman - Blood Money
+region=NTSC
+version=534300FA (SC-250)
+author=ProgScan
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+C7853C13000020010000
+C7853C13000000010000
