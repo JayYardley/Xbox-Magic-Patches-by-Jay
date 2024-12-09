@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Colin McRae Rally 3
+region=NTSC
+version=434D0001 (CM-001)
+author=Shanafan
+notes=480p Forced
+# 480i (Interlaced) -> 480p (Progressive)
+83c840a3c05b5100
+83c820a3c05b5100
+# 480i (Interlaced) -> 480p (Progressive)
+83c800a3c05b5100
+83c800a3c05b5100
