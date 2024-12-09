@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Bionicle
+region=PAL
+version=45410039 (EA-057)
+author=Nemesis2000
+notes=
+#Widescreen A
+ABAAAA3F
+398EE33F
+#Widescreen B
+BE9FAA3F
+398EE33F

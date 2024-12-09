@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Forgotten Realms - Demon Stone
+region=NTSC
+version=49470074 (IG-116)
+author=Nemesis2000
+notes=
+#Widescreen A
+68ABAAAA3F
+867477E33F
+#Widescreen B
+0FBF9184060000
+BA550300009090
+#Cutscene Letterbox Fix
+A198E31B0083F803
+A1A410010083F803

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Whiplash
+region=PAL
+version=45530011 (ES-017)
+author=Nemesis2000
+notes=
+#Widescreen
+BE9FAA3F
+398EE33F

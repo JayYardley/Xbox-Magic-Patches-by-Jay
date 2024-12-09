@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Fable - The Lost Chapters
+region=NTSC
+version=4D5300D1 (MS-209)
+author=Nemesis2000
+notes=
+#Widescreen
+D83DA80B9100D95C2414F30F107C2414
+D83D500D9100D95C2414F30F107C2414

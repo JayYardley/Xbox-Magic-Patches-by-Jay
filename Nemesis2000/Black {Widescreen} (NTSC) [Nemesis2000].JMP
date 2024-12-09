@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Black
+region=NTSC
+version=45410083 (EA-131)
+author=Nemesis2000
+notes=Widescreen
+#16:9
+585D2900EB15F30F
+905D2900EB15F30F

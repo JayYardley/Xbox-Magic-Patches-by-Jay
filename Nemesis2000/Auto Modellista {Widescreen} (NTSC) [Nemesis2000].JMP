@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Auto Modellista
+region=NTSC
+version=4343000E (CC-014)
+author=Nemesis2000
+notes=
+#Widescreen - Gameplay
+ABAAAA3F000000000000000040010000
+388EE33F000000000000000040010000
+#Widescreen - Car Select
+164200ABAAAA3FA340174200890D4417
+164200388EE33FA340174200890D4417

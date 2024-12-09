@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Matrix - Path of Neo
+region=NTSC
+version=4947007C (IG-124)
+author=Nemesis2000
+notes=
+#Widescreen
+F30F1005888A2800
+F30F1005848A2800
+#FMV's Fix
+7408F30F100D8494
+9090F30F100D8494

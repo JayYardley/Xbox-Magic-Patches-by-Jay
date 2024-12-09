@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Legacy of Kain - Defiance
+region=NTSC
+version=4553000F (ES-015)
+author=Nemesis2000
+notes=Native Widescreen Support
+#Cutscene Letterbox Fix
+34EA460084C0740E
+34EA460084C0EB0E
+#Subtitles Black Background Fix
+40D80DF0E51B00D8
+00D80DF0E51B00D8

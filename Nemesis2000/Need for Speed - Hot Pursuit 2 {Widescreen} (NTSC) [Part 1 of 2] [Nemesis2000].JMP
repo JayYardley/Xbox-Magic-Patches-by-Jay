@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Need for Speed - Hot Pursuit 2
+region=NTSC
+version=45410028 (EA-040)
+author=Nemesis2000
+notes=There are two patches for this game. They are applied to either the file "inis.viv" or "default.xbe"
+#Apply to 'default.xbe'
+30ABAAAA3F
+30398EE33F
+#Apply to 'default.xbe'
+1B00894654B8000048428946
+1B00894654B800007F428946

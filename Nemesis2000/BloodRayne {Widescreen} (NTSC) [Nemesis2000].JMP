@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=BloodRayne
+region=NTSC
+version=4D4A0001 (MJ-001)
+author=Nemesis2000
+notes=
+#16:9 (anamorphic)
+8B0D503440008D1409891540602F00EB0AA150344000
+B901000000908D1409891540602F00EB0AB801000000

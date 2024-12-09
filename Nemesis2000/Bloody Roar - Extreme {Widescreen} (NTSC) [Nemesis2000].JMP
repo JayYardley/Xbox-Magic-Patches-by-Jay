@@ -1,0 +1,22 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Bloody Roar - Extreme
+region=NTSC
+version=48550001 (HU-001)
+author=Nemesis2000
+notes=Widescreen
+#16:9 A
+5C8FA23F
+26BFD83F
+#16:9 B
+5C8FA23F
+26BFD83F
+#16:9 C
+5C8FA23F
+26BFD83F
+#16:9 D
+5C8FA23F
+26BFD83F
+#16:9 E
+5C8FA23F
+26BFD83F

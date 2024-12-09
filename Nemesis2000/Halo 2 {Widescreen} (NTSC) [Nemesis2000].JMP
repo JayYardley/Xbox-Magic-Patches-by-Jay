@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Halo 2
+region=NTSC
+version=4D530064 (MS-100)
+author=Nemesis2000
+notes=
+#Horizontal widescreen Split Screen Multiplayer
+740AC744241002000000EB0EC7442410
+EB0AC744241002000000EB0EC7442410

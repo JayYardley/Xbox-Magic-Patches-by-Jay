@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Genma Onimusha
+region=NTSC
+version=43430001 (CC-001)
+author=Nemesis2000
+notes=
+#Subtitle Position A
+C7051A8549005401
+C7051A8549008001
+#Subtitle Position B
+C7051A8549005401
+C7051A8549008001
+#Subtitle Position C
+C7051A8549005401
+C7051A8549008001
+#Cutscene Letterbox Fix
+E8CB9D0700E876D2FFFFE8A17302006A
+E8CB9D07009090909090E8A17302006A

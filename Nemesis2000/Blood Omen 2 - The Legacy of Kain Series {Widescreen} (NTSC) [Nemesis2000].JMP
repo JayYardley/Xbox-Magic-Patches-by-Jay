@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Blood Omen 2 - The Legacy of Kain Series
+region=NTSC
+version=45530006 (ES-006)
+author=Nemesis2000
+notes=
+#Widescreen A
+804068ABAAAA3F
+804068398EE33F
+#Widescreen B
+804068ABAAAA3F
+804068398EE33F
+#FMV/Menu Fix
+ABAAAA3F28733700
+398EE33F28733700

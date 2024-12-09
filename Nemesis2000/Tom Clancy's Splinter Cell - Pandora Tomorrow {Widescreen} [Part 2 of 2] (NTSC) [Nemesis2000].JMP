@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tom Clancy's Splinter Cell - Pandora Tomorrow (offline.xbe)
+region=NTSC
+version=55530019 (US-025)
+author=Nemesis2000
+notes=Two versions of this patch, one for (default.xbe), the other for (offline.xbe)
+#Apply to "offline.xbe"
+8B4C2420C7442424000000008B442424894A04894208B80000803F898694000000898690000000
+C744242400000000894204894208B80000403F898690000000B80000803F898694000000909090

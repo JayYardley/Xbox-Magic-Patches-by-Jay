@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Gauntlet - Seven Sorrows
+region=PAL
+version=4D570033 (MW-051)
+author=Nemesis2000
+notes=
+#Widescreen
+0080780D007506D9442404EB0ED94424
+0080780D00EB06D9442404EB0ED94424

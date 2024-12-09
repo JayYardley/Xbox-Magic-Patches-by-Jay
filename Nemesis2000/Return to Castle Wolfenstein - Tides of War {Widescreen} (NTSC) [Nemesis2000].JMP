@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Return to Castle Wolfenstein - Tides of War
+region=NTSC
+version=41560010 (AV-016)
+author=Nemesis2000
+notes=
+#Horizontal FOV
+6F6465310000000039350000636C6965
+6F6465310000000031313100636C6965
+#Vertical FOV
+00002842E02EE54200005C4200002043
+000028420000BC4200005C4200002043
