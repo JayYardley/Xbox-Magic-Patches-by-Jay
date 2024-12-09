@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Breakdown
+region=JPN
+version=4E4D0009 (NM-009)
+author=Akoako
+notes=480p Auto
+#480i (Interlaced) -> 480p (Progressive)
+83C920890D
+83C900890D
