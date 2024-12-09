@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Kao the Kangaroo - Round 2
+region=PAL
+version=4A570003 (JW-003)
+author=Pixelise
+notes=
+#Widescreen A
+68ABAAAA
+687477E3
+#Widescreen B
+68ABAAAA
+687477E3
+#Widescreen C
+68ABAAAA
+687477E3
+#Widescreen D
+43ABAAAA3F
+43398EE33F
