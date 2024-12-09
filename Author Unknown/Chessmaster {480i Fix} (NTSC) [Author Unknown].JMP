@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Chessmaster
+region=NTSC
+version=55530039 (US-057)
+author=Author Unknown
+notes=480i -> 480p
+#Disable Interlacing (Set to Auto/Progressive)
+8B8424D40000008B50088B4828528B502C518B4804528B1051528BF3
+8B8424D40000008B50089090528B502C6A008B4804528B1051528BF3
