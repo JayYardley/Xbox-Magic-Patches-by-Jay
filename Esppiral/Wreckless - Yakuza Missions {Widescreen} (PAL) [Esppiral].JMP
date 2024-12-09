@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Wreckless - Yakuza Missions
+region=PAL
+version=4156000C (AV-012)
+author=Esppiral
+notes=
+#Widescreen A
+C7000000403FC390
+C7000000103FC390
+#Widescreen B
+35FA8E3FC10F733F
+F1A2BE3FC10F733F
+#No blur (Optional)
+8B86880200003BC3DCC0D9542438D9C1
+9090909090903BC3DCC0D9542438D9C1

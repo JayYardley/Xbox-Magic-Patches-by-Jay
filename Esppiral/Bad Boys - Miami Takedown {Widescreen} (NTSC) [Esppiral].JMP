@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Bad Boys - Miami Takedown
+region=NTSC
+version=454D0016 (EM-022)
+author=Esppiral
+notes=
+#Widescreen
+F3665F3F
+4DEF943F

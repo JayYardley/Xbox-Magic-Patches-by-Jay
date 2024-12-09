@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=TOCA Race Driver 3
+region=NTSC+PAL
+version=434D0050 (CM-080)
+author=Esppiral
+notes=21:9
+#Ultra Widescreen 21:9 - Test on real hardware?
+9A99593F
+3333233F

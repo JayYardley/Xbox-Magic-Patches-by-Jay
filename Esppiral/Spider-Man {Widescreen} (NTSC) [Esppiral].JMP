@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Spider-Man
+region=NTSC
+version=41560006 (AV-006)
+author=Esppiral
+notes=
+#Widescreen
+ABAAAA3F
+398EE33F

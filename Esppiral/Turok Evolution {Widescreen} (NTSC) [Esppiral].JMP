@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Turok Evolution
+region=NTSC
+version=41430004 (AC-004)
+author=Esppiral
+notes=
+#Widescreen
+0000803F742C4874164875378B842490
+0000403F742C4874164875378B842490

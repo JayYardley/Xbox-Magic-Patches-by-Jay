@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Grand theft Auto: Vice City
+region=PAL
+version=5454000F (TT-015)
+author="retroszur"
+notes=Game supports widescreen out of the box but crops too much vertically
+#HUD Fix A
+713DAA3F0000803FEC51983F
+5555D53F0000803FEC51983F
+#HUD Fix B
+00008C42000070420000
+0000A642000070420000
+#HUD Fix C
+CDCCCC3A9A9939400A
+49507C3A9A9939400A

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Fuzion Frenzy
+region=NTSC
+version=4D530002 (MS-002)
+author=Esppiral
+notes=
+#Widescreen
+D80DD0362500D9F2DDD8D83D50382500D95C240CD9058CE52B
+D80D78812B00D9F2DDD8D83D50382500D95C240CD9058CE52B

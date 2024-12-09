@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Spider-Man 2
+region=Global
+version=4156002B (AV-043)
+author=Esppiral
+notes=
+#Widescreen
+ABAAAA3F398EE33F000000000000000000000000000000800000008000
+398EE33F398EE33F000000000000000000000000000000800000008000

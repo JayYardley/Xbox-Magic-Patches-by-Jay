@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Psychonauts
+region=NTSC
+version=4D4A0012 (MJ-018)
+author=Esppiral
+notes=
+#Widescreen
+3DABAAAA3F
+3D398EE33F

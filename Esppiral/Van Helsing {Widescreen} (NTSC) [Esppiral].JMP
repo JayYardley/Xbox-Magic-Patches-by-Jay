@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Van Helsing
+region=NTSC
+version=56550029 (VU-041)
+author=Esppiral
+notes=
+#Widescreen
+AAAAAA3F000020440000F043010101018988083D05050101
+398EE33F000020440000F043010101018988083D05050101

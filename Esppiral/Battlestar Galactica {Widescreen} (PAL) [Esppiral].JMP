@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Battlestar Galactica
+region=PAL?
+version=5655000F (VU-015)
+author=Esppiral
+notes=
+#Widescreen A
+3333733FCDCCCC3E57434C314C413031
+2222A23FCDCCCC3E57434C314C413031
+#Widescreen B
+F30F100D3CE01400F30F1154244CF30F
+F30F100D74931500F30F1154244CF30F

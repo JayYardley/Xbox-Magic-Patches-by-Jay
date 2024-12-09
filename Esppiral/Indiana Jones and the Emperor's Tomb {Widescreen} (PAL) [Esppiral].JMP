@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Indiana Jones and the Emperor's Tomb
+region=PAL
+version=4C410007 (LA-007)
+author=Esppiral
+notes=
+#Widescreen A
+D80D341E5200750B
+D80DE0CD5000750B
+#Widescreen B
+0000F03F463A5C53
+8FC2F53F463A5C53

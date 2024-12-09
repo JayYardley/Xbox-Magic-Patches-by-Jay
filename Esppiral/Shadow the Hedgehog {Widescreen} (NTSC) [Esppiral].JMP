@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Shadow the Hedgehog
+region=NTSC
+version=53450086 (SE-134)
+author=Esppiral
+notes=
+#Widescreen
+0000803F9224893F
+ABAAAA3F9224893F

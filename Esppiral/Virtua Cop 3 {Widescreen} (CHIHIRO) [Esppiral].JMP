@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Virtua Cop 3
+region=CHIHIRO
+version=1.0
+author=Esppiral
+notes=
+#Widescreen
+ABAAAA3F5281C6AC000000
+398EE33F5281C6AC000000

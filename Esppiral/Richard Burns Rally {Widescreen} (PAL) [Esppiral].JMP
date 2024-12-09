@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Richard Burns Rally
+region=PAL
+version=53430005 (SC-005)
+author=Esppiral
+notes=
+#Widescreen
+ABAAAA3F0000003E610B3641000034C30000B4C2
+398EE33F0000003E610B3641000034C30000B4C2

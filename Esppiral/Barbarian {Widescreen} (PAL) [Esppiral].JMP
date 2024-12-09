@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Barbarian
+region=PAL
+version=54530002 (TS-002)
+author=Esppiral
+notes=
+#Widescreen
+ABAAAA3F6800000C42
+398EE33F6800000C42

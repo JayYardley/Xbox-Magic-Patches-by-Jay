@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Ninja Gaiden Black
+region=NTSC
+version=5443000D (TC-013)
+author=Esppiral
+notes=21:9 (Game runs in widescreen 16:9 stock)
+#This edit is for 21:9, massively widescreen. Unlikely tested on real hardware, let me know!
+398EE33F
+55551540

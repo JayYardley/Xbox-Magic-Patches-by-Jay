@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Dead or Alive: Extreme Beach Volleyball
+region=NTSC
+version=54430007 (TC-007)
+author=Esppiral
+notes=
+# Aspect Ratio -  Float32 adjusted from 1.777 to 2.333
+2440398EE33F7508
+2440555515407508

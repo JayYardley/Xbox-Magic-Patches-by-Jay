@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Kabuki Warriors
+region=NTSC
+version=43560001 (CV-001)
+author=Esppiral
+notes=
+#Widescreen A
+680000A03F68DB0F493F8D8C2494
+685555D53F68DB0F493F8D8C2494
+#Widescreen B
+ABAAAA3F68DB0F493F
+398EE33F68DB0F493F

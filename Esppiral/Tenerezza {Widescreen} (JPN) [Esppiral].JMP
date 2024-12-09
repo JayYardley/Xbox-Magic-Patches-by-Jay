@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tenerezza
+region=JPN
+version=41500001 (AP-001)
+author=Esppiral
+notes=
+#Widescreen
+ABAAAA3F68C04E2D00E85E79030083C41468
+398EE33F68C04E2D00E85E79030083C41468

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Silent Hill 2
+region=NTSC
+version=4B4E0004 (KN-004)
+author=Esppiral
+notes=60FPS
+#No FPS cap/limit (60fps) - Indoors only?
+A27F56DF0033C0C390909090
+A17F56DF0033C0C390909090

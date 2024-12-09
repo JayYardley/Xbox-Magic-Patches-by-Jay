@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Drihoo
+region=JPN
+version=48570001 (HW-001)
+author=Esppiral
+notes=
+#Widescreen
+3FABAAAA3F
+3F398EE33F

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Mashed: Drive to Survive
+region=PAL
+version=454D000A (EM-010)
+author=Esppiral
+notes=
+#Widescreen
+F30F100524584D00F3
+F30F100574D72900F3

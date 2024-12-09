@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Xbox M$ Dashboard (21x9)
+region=Dashboard
+version=4034
+author=Esppiral
+notes=21:9 (Dashboard version 4034, xboxdash.xbe)
+#21:9 (Dashboard version 4034, xboxdash.xbe)
+0000F03F0000C03F0000003FDB0FC93F
+000020400000C03F0000003FDB0FC93F

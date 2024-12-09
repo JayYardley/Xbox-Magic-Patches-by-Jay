@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Sonic Heroes
+region=PAL
+version=5345002B (SE-043)
+author=Esppiral
+notes=
+#Widescreen
+3F1D96433E8000003F
+3F59999A3E8000003F

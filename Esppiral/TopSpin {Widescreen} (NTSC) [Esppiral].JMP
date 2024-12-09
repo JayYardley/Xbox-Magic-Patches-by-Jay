@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=TopSpin
+region=NTSC
+version=4D530035 (MS-053)
+author=Esppiral
+notes=
+#Widescreen
+ABAAAA3F
+398EE33F

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=X-Men - Next Dimension
+region=NTSC
+version=41560007 (AV-007)
+author=Esppiral
+notes=
+#Widescreen
+00D91C24A5C74348ABAAAA3FC7434C
+00D91C24A5C74348398EE33FC7434C
