@@ -7,7 +7,7 @@ It's a work in progress.
 Every .JMP patch that I create is typically based on the work of others, and all patches subsequently credit those authors both in the file name and the "author=" line within.
 All patches are provided as-is, many are untested as of writing this. If you are an author of a patch and want credit, let me know!
 
-I've organised patches by the author's handle, so if you're looking for something quickly use the search feature and type the game title:
+I've organised patches by the author's handle, so if you're looking for something quickly use the search feature and start typing the game title:
 
 ![search](https://github.com/JayYardley/Magic-Patches-by-Jay/blob/main/search.PNG?raw=true)
 
