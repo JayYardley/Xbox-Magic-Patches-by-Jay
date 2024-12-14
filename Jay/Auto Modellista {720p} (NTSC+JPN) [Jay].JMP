@@ -4,7 +4,7 @@ game-title=Auto Modellista
 region=NTSC+JPN
 version=4343000E (CC-014)
 author=Jay
-notes=FOV optional. Because of the way the game is designed, bumping internal resolution does almost nothing for visual fidelity, so main focus was fixing black bars on each side of the screen, which I have acheived.
+notes=FOV optional. Because of the way the game is designed, bumping internal resolution does almost nothing for visual fidelity, so main focus was fixing black bars on each side of the screen, which I have achieved.
 #Header Edit - Limit RAM 64MB (OFF)
 0100140000007003010005000000FBF0EBA878CD31
 0100140000007003010001000000FBF0EBA878CD31
