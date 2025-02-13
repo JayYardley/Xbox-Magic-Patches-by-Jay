@@ -2,9 +2,9 @@
 system=Xbox
 game-title=Dinotopia: The Sunstone Odyssey
 region=NTSC
-version=544D000F
+version=544D000F (TM-015) - CRC32=D73F0538
 author=SPPV
-notes=This game is a bit wonky. Run with XBOX set to FULLSCREEN. It will start with small screen and gibberish. A TDK movie will play, hit start 3 times to skip it (even deleting the movie file didnt get rid of it). The main menu screen will be undersized but the actual game is full sized and runs just fine.
+notes=Run with XBOX set to FULLSCREEN. It will start with small screen and gibberish. A TDK movie will play, hit start 3 times to skip it (even deleting the movie file didnt get rid of it). The main menu screen will be undersized but the actual game is full sized and runs just fine.
 #Header Edit - Allowed Media & Region Flags
 00000000000000000000020000000100000003000000000000
 00000000000000000000FF0100400700000003000000000000
