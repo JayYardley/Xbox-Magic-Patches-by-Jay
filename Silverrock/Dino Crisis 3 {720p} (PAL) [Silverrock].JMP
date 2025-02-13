@@ -4,7 +4,7 @@ game-title=Dino Crisis 3
 region=PAL
 version=43430003 (CC-003)
 author=Silverrock
-notes=
+notes=Pal specifically, .xiso CRC 858d44ad. Overclock or cpu upgrade recommended.
 #Header Edit - Limit RAM 64MB (OFF)
 010018000000700301000400000077F2E4A854D81F
 010018000000700301000000000077F2E4A854D81F
