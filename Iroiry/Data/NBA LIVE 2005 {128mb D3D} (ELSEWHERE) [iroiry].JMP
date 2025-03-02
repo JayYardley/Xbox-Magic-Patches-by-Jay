@@ -1,0 +1,22 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=NBA LIVE 2005
+region=ELSEWHERE
+version=45410050 (MS-080)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+050000003247FDA8BC24650000500200
+010000003247FDA8BC24650000500200
+#General Memory Cap Increase-> 128mb 1 @ 0x000098A6 (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x000098AC (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x000098FA (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x0003061F (Header)
+00B0FF0300B6FF0300BCFF0300C2FF03
+00B0FF0700B6FF0300BCFF0300C2FF03

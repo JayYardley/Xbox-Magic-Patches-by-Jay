@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Knockout Kings 2002
+region=JAPAN
+version=4541000A (MS-010)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+05000000C447FDA8040C1B0000000100
+01000000C447FDA8040C1B0000000100
+#64mb D3D Data Value Change 1 @ 0x001EC0BC (.rdata)
+00B0FF0300C8100400681A0400482504
+00B0FF0700C8100400681A0400482504
+#64mb D3D Data Value Change 2 @ 0x001ECAE4 (.rdata)
+00B0FF0300C8100400681A0400482504
+00B0FF0700C8100400681A0400482504

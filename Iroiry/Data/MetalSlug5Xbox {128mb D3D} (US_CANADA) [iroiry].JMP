@@ -1,0 +1,25 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=MetalSlug5Xbox
+region=US/CANADA
+version=534E0008 (MS-008)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#General Memory Cap Increase-> 128mb 1 @ 0x001FB8E7 (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x001FB8ED (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x001FB93B (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x00408141 (.text)
+00B0FF0305000021A120000001000000
+00B0FF0705000021A120000001000000
+#64mb D3D Data Value Change 2 @ 0x00426CE9 (.text)
+00B0FF03030000C0FC2000C1FC2000C2
+00B0FF07030000C0FC2000C1FC2000C2
+#64mb D3D Data Value Change 3 @ 0x0043198D (.text)
+00B0FF0303000000010000751B300076
+00B0FF0703000000010000751B300076

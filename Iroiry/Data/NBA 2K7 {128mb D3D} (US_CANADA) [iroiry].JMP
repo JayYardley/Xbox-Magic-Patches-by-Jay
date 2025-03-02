@@ -1,0 +1,22 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=NBA 2K7
+region=US/CANADA
+version=545400AE (MS-174)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+05000080F242D1A82C538300A0860100
+01000080F242D1A82C538300A0860100
+#General Memory Cap Increase-> 128mb 1 @ 0x002CB070 (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x002CB076 (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x002CB0C4 (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x0052C85D (XPP)
+00B0FF0300D702670031FFF2FFD802B3
+00B0FF0700D702670031FFF2FFD802B3

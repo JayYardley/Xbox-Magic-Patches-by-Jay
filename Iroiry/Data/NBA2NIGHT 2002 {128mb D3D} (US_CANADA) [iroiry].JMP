@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=NBA2NIGHT 2002
+region=US/CANADA
+version=4B4E0006 (MS-006)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#64mb D3D Data Value Change 1 @ 0x0040270F (.rdata)
+00B0FF03C4F48DD743F784C8C494F616
+00B0FF07C4F48DD743F784C8C494F616

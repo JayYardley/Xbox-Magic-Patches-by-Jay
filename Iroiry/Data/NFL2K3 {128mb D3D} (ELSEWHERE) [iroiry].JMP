@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=NFL2K3
+region=ELSEWHERE
+version=5345001F (MS-031)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#64mb D3D Data Value Change 1 @ 0x0065CFEF (XPP)
+00B0FF03030202000094FF0203920200
+00B0FF07030202000094FF0203920200

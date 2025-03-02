@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=CrimsonSea
+region=ELSEWHERE
+version=4B4F0002 (MS-002)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#64mb D3D Data Value Change 1 @ 0x003E4AC3 (XPP)
+00B0FF030090B0020040EC030050B002
+00B0FF070090B0020040EC030050B002

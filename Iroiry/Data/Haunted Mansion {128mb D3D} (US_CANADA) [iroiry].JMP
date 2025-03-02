@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Haunted Mansion
+region=US/CANADA
+version=544D000D (MS-013)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+050000006F07F4A87CE5310000000200
+010000006F07F4A87CE5310000000200
+#64mb D3D Data Value Change 1 @ 0x003143E3 (XPP)
+00B0FF030030E11A0010FC0300D00E1A
+00B0FF070030E11A0010FC0300D00E1A

@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Unreal Championship
+region=GLOBAL
+version=49470024 (MS-036)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+050000009096DDA8F82C3E0000001000
+010000009096DDA8F82C3E0000001000
+#64mb D3D Data Value Change 1 @ 0x0003021B (Header)
+00B0FF030069000400DD0004004FFE03
+00B0FF070069000400DD0004004FFE03

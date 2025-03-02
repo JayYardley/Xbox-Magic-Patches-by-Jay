@@ -1,0 +1,22 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=IHRA Sportsman
+region=US/CANADA
+version=42530011 (MS-017)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+05000000145CE6A8CC832D0000000100
+01000000145CE6A8CC832D0000000100
+#General Memory Cap Increase-> 128mb 1 @ 0x00196058 (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x0019605E (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x001960AC (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x002A470F (WMADEC)
+00B0FF0300B0FE0300E0FF030010FF03
+00B0FF0700B0FE0300E0FF030010FF03

@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Dynasty Warriors 3
+region=JAPAN
+version=4B4F0003 (MS-003)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#64mb D3D Data Value Change 1 @ 0x00220617 (.rdata)
+00B0FF030000000000E6C30000EE0000
+00B0FF070000000000E6C30000EE0000
+#64mb D3D Data Value Change 2 @ 0x00228377 (.rdata)
+00B0FF030000000000E8C30000EE0000
+00B0FF070000000000E8C30000EE0000

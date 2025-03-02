@@ -1,0 +1,22 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Destroy All Humans!
+region=ELSEWHERE
+version=54510026 (MS-038)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+05000000607FF7A88C0E230000000200
+01000000607FF7A88C0E230000000200
+#General Memory Cap Increase-> 128mb 1 @ 0x000A2A49 (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x000A2A4F (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x000A2A9D (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x002254EB (BINK32M)
+00B0FF030020F80300200F040030EE10
+00B0FF070020F80300200F040030EE10

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Zapper
+region=ELSEWHERE
+version=49470012 (MS-018)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#64mb D3D Data Value Change 1 @ 0x00197D93 (XPP)
+00B0FF0300C046030010050400B00104
+00B0FF0700C046030010050400B00104

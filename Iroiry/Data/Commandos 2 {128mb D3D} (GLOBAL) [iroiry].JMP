@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Commandos 2
+region=GLOBAL
+version=45530008 (MS-008)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+05000000BE60FDA81CAB420000000100
+01000000BE60FDA81CAB420000000100
+#64mb D3D Data Value Change 1 @ 0x0041CA53 (XPP)
+00B0FF0300ED1F3500ED1F3500ED1F35
+00B0FF0700ED1F3500ED1F3500ED1F35

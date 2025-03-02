@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=SpongeBob SquarePants: Lights, Camera, P
+region=US/CANADA
+version=545100FA (MS-250)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#General Memory Cap Increase-> 128mb 1 @ 0x001BB6EA (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x001BB6F0 (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x001BB73E (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x002E8583 (XPP)
+00B0FF0300F8C02D0030280400B8C42D
+00B0FF0700F8C02D0030280400B8C42D

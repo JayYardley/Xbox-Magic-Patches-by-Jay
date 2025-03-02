@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=ShikigaminoShiroEvolution
+region=JAPAN
+version=4B490001 (MS-001)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#64mb D3D Data Value Change 1 @ 0x00236BDD (.rdata)
+00B0FF03000C001E0030000000640003
+00B0FF07000C001E0030000000640003

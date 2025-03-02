@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=EA SPORTS FN 2
+region=US/CANADA
+version=45410055 (MS-085)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#General Memory Cap Increase-> 128mb 1 @ 0x002B3019 (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x002B301F (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x002B306D (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x0037C687 (XPP)
+00B0FF030060FE0300D0FD0300D0FE03
+00B0FF070060FE0300D0FD0300D0FE03
