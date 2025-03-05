@@ -4,7 +4,7 @@ by Jay
 ### Here is my humble collection of every patch I could find, converted into my .JMP patch format.
 It's a work in progress.
 
-Jay's Magic Patch (.JMP) is a patch file format that allows the HEX code patching of any Xbox ".XBE" executable file via my online patching tool Jay's Magic Patcher: https://www.jayxbox.com/retail-game-modification/jays-magic-patcher
+Jay's Magic Patch (.JMP) is a patch file format that allows the HEX code patching of any Xbox ".XBE" executable file via my online patching tool Jay's Magic Patcher: [https://www.jayxbox.com/retail-game-modification/jays-magic-patcher](https://www.jayxbox.com/Retail-Game-Modification/Magic-Patcher.php)
 The patch file is human-readable via any text editor.
 
 Every .JMP patch that I create is typically based on the work of others, and all patches subsequently credit those authors both in the file name and the "author=" line within.
