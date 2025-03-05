@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Dragon Ball Z Sagas
+region=NTSC
+version=4947007A (IG-122)
+author=icup321
+notes=Widescreen
+#16:9
+E33D0000804000007F43ABAAAA3F000020410001003800
+E33D0000804000007F43398EE33F000020410001003800
