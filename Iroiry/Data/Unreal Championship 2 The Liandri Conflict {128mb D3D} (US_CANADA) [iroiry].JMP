@@ -1,0 +1,22 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Unreal Championship 2: The Liandri Confl
+region=US/CANADA
+version=4D578028 (MS-040)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#General Memory Cap Increase-> 128mb 1 @ 0x002450AE (Header)
+FC81CE0000000C8BCEC1E9188BC6C1E8
+F881CE0000000C8BCEC1E9188BC6C1E8
+#General Memory Cap Increase-> 128mb 2 @ 0x002450B4 (Header)
+0C8BCEC1E9188BC6C1E81C83E10F83E0
+088BCEC1E9188BC6C1E81C83E10F83E0
+#General Memory Cap Increase-> 128mb 3 @ 0x00245102 (Header)
+40742A8B4D088BF157C1E90233C08BFA
+80742A8B4D088BF157C1E90233C08BFA
+#64mb D3D Data Value Change 1 @ 0x003E8FF3 (XPP)
+00B0FF0300F4233C0040000400E0233C
+00B0FF0700F4233C0040000400E0233C
+#64mb D3D Data Value Change 2 @ 0x003E9607 (XPP)
+00B0FF030040000400B0000400609803
+00B0FF070040000400B0000400609803

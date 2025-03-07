@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Hitman2: Silent Assassin
+region=ELSEWHERE
+version=45530009 (MS-009)
+author=iroiry
+notes=128mb D3D allocation patch. Credit to Andy Anderson for these values. These follow a known working pattern of data values! Not guaranteed to work, give it a try!
+#Remove Ram Limit Flag @ 0x124
+05000000AA31FDA858303E0000001000
+01000000AA31FDA858303E0000001000
+#64mb D3D Data Value Change 1 @ 0x003CBA5F (XPP)
+00B0FF0300CF1301007A1301007B1201
+00B0FF0700CF1301007A1301007B1201
