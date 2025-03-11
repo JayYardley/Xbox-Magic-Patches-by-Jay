@@ -4,7 +4,7 @@ game-title=Cold Fear
 region=Global
 version=5553004B (US-075)
 author=Silverrock
-notes=128MB only - HUD/Text small 6/11/24
+notes=128MB only - HUD/Text small 6/11/24. Multiple people have reported a black screen when patching this game. Could be an xbe/xbox revision thing.
 #Header Edit - Limit RAM 64MB (OFF)
 01000E0000007003010007000000E5EDFDA8CC7530
 01000E0000007003010003000000E5EDFDA8CC7530
