@@ -46,7 +46,7 @@ For the "version=" header on xbox titles, I like including both the Title ID in 
 + >AABBCCDD
 + >AABBCCDD
 + >#This next patch record does something
-+ >AABBCCCDD
++ >AABBCCDD
 + >DDCCBBAA
 
 The second line of a patch record (the one after the comment line), dictates the HEX value to "find". The third line is the HEX value that goes in it's place, effectively replacing the original data.
