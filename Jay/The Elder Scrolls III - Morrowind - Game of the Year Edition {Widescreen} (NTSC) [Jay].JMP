@@ -1,0 +1,12 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Elder Scrolls III - Morrowind Game of the Year Edition
+region=NTSC
+version=42530005 (BS-005)
+author=Jay
+#Fix Vertical FOV (1.0f -> 0.75f)
+d83da06f3900d905a06f3900
+d83da06f3900d90530003600
+#Remove normalization condition
+d81574703900dfe0f6c441751d
+909090909090dfe0f6c441751d
