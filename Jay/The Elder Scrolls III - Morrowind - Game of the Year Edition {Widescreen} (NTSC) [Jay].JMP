@@ -4,6 +4,7 @@ game-title=The Elder Scrolls III - Morrowind Game of the Year Edition
 region=NTSC
 version=42530005 (BS-005)
 author=Jay
+notes=Must be applied to "Morrowind.xbe" (not Default.xbe)
 #Fix Vertical FOV (1.0f -> 0.75f)
 d83da06f3900d905a06f3900
 d83da06f3900d90530003600
