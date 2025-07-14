@@ -10,12 +10,6 @@ The patch file is human-readable via any text editor.
 Every .JMP patch that I create is typically based on the work of others, and all patches subsequently credit those authors both in the file name and the "author=" line within.
 All patches are provided as-is, many are untested as of writing this. If you are an author of a patch and want credit, let me know!
 
-> I've organised patches by the author's handle, so if you're looking for something quickly use the search feature and start typing the game title:
-
-![search](https://github.com/JayYardley/Magic-Patches-by-Jay/blob/main/search.PNG?raw=true)
-
-> In the near future, I would like to create a patch bounty system, which would allow the average Joe to donate into a pool per game. All outstanding pool amounts will be provided to the patch creator when it is determined to sufficiently meet the needs of a typical patch.
-
 <Details>
   <summary>Details about the .JMP format:</summary>
 
@@ -42,15 +36,37 @@ For the "version=" header on xbox titles, I like including both the Title ID in 
 
 #### Below the headers are "Patch Records" and must initially be commented with a "#" line. Notice there is no line break between patch records.
 
-+ >#This patch record does nothing
-+ >AABBCCDD
-+ >AABBCCDD
-+ >#This next patch record does something
+There are two types of patch records.
++ >Search and Replace
++ >Offset
+
+##### Search and replace:
++ >#This patch record searches for the first resulting "AABBCCDD" and replaces it with "DDCCBBAA"
 + >AABBCCDD
 + >DDCCBBAA
 
 The second line of a patch record (the one after the comment line), dictates the HEX value to "find". The third line is the HEX value that goes in it's place, effectively replacing the original data.
 
-Patch records can theoretically go on forever, however my patcher can realistically only handle about 200. If your patch requires more than 100 records then it is probably a bad patch. Most clean patches require about 1 to 10 patch records.
-If you were looking to create a .JMP file, download one from here and recycle the formatting I use. Alternatively you can generate a templated .JMP using a stock .XBE and a patched .XBE here: https://www.jayxbox.com/retail-game-modification/magic-xbe2far
+##### Offset:
++ >#This patch record jumps to the offset "0x120" and inserts AABBCCDD
+0x120:AABBCCDD
+
+The colon is a separator for the offset and data.
+Offset patch records can have the following offset formats and all mean the samne thing:
+"120"
+"0x120"
+"00000120"
+"0x00000120"
+
+Patch records can theoretically go on forever.
+If you were looking to create a .JMP file, download one from here and recycle the formatting I use. Alternatively you can generate a templated .JMP using a stock .XBE and a patched .XBE here: [XBE2Magic](https://www.jayxbox.com/Retail-Game-Modification/XBE2Magic.php)
 </details>
+
+### 🔍 Search this repo
+> I've organised patches by the author's handle, so if you're looking for something quickly use the search feature and start typing the game title.
+> 
+Find this entry field at the top of the page and search "Widescreen" or "720p":
+
+![search](https://github.com/JayYardley/Magic-Patches-by-Jay/blob/main/search.PNG?raw=true)
+
+> In the near future, I would like to create a patch bounty system, which would allow the average Joe to donate into a pool per game. All outstanding pool amounts will be provided to the patch creator when it is determined to sufficiently meet the needs of a typical patch.
