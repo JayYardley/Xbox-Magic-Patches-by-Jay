@@ -49,14 +49,14 @@ The second line of a patch record (the one after the comment line), dictates the
 
 ##### Offset:
 + >#This patch record jumps to the offset "0x120" and inserts AABBCCDD
-0x120:AABBCCDD
++ >0x120:AABBCCDD
 
 The colon is a separator for the offset and data.
 Offset patch records can have the following offset formats and all mean the samne thing:
-"120"
-"0x120"
-"00000120"
-"0x00000120"
++ >"120"
++ >"0x120"
++ >"00000120"
++ >"0x00000120"
 
 Patch records can theoretically go on forever.
 If you were looking to create a .JMP file, download one from here and recycle the formatting I use. Alternatively you can generate a templated .JMP using a stock .XBE and a patched .XBE here: [XBE2Magic](https://www.jayxbox.com/Retail-Game-Modification/XBE2Magic.php)
