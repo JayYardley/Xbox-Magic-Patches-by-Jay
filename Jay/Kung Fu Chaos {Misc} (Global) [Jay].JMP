@@ -1,0 +1,17 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Kung Fu Chaos
+region=NTSC, JAPAN
+version=4D530031 (MS-049)
+author=Jay
+notes=Forced 480p - If using Cerbios this has already been fixed. I suspect only one of the 3 options needs enabling to fix progressive mode issues.
+#480i (Interlaced) -> 480p (Progressive)
+0x19E2A0:00
+#Option 1 - Change interlaced Hz to 60
+0x1F042E:3C
+#Option 2 - Skip Interlacing logic
+0x1F0418:9090
+#Option 3 - Force standard 60Hz logic
+0x1F0446:3C
+#Widescreen (Stretches HUD too)
+0xB6501:398EE3
