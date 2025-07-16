@@ -5,7 +5,7 @@ region=NTSC
 version=4D530051 (MS-081)
 author=Nemesis2000, ICUP321 & FrankyBuster (Combo Patch)
 notes=Widescreen & FPS (Combo Patch) - It was reported that FPS patch causes dialogue to become out-of-sync. Recommended to patch widescreen only.
-#Widescreen - Nemesis
+#Widescreen - Nemesis2000
 F30F10840164020000E94A010000CCCCCCCCCCCCCCCCCC
 F30F590D50996400F30F10840164020000E942010000CC
 #60FPS - ICUP321 & FrankyBuster
