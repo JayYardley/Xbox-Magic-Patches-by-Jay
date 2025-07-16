@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Incredible Hulk: Ultimate Destruction
+region=USA/Canada & Japan & Everywhere Else
+version=56550039 (VU-057) (And all other versions)
+author=Jay
+notes=Fixes FATX issues.
+#Header Edit - Allowed Media & Region Flags
+0x220:FF010040
+#FATX Fix 1
+5EC9C20400558BEC83EC34FF7508
+5EC9C20400558BEC83EC34EB4341
+#FATX Fix 2
+7D1B50E830060000E8D505000083F80275076A03E8F105000033C0EB33
+7C46EB198B4508508B000C203D643A5C0075AF5856B800080000EB3390
