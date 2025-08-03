@@ -4,9 +4,11 @@ game-title=The Incredible Hulk: Ultimate Destruction
 region=USA/Canada & Japan & Everywhere Else
 version=56550039 (VU-057) (And all other versions)
 author=Jay
-notes=Fixes FATX issues.
+notes=Various edits
 #Header Edit - Allowed Media & Region Flags
 0x220:FF010040
+#Reroute 1.333 aspect ratio call to a higher 1.777 float nearby
+0x30B513:84
 #FATX Fix 1
 5EC9C20400558BEC83EC34FF7508
 5EC9C20400558BEC83EC34EB4341
