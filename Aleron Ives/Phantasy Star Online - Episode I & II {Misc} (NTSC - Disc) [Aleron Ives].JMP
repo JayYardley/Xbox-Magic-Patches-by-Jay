@@ -1,0 +1,101 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Phantasy Star Online - Episode I & II
+region=NTSC
+version=4D53004A (MS-074) [Disc]
+author=PSO Palace/Aleron Ives
+notes=This patch is for the NTSC stock default.xbe that comes with the disc. Prepared for this repo by Mega.
+#Keyboard_Patch_English 1 of 2 (If using this, uncheck Keyboard_Patch_Japanese)
+0x5353BD:3D1F5B5D3B271F2C2E2F5C02030405060708090A0B0C0D011F1460
+#Keyboard_Patch_English 2 of 2 (If using this, uncheck Keyboard_Patch_Japanese)
+0x535433:402324255E262A28295F2B7C7B7D3A221F3C3E3F1F02030405060708090A0B0C0D011F147E
+#Keyboard_Patch_Japanese 1 of 2 (If using this, uncheck Keyboard_Patch_English)
+0x5353BD:3D1F5B5D3B271F
+#Keyboard_Patch_Japanese 2 of 2 (If using this, uncheck Keyboard_Patch_English)
+0x535433:402324255E262A28295F2B7C7B7D3A221F3C3E3F1F
+#Shop_Patch - Extra download required to use: https://www.jayxbox.com/All-Patches/titles/Phantasy%20Star%20Online%20-%20Episode%20I%20&%20II/Extra/PSO_Shop_Patch.zip
+0x53ffac:060000000300000001000000
+#Temple_Patch - Extra download required to use: https://www.jayxbox.com/All-Patches/titles/Phantasy%20Star%20Online%20-%20Episode%20I%20&%20II/Extra/PSO_Xbox_Temple_Patch.zip
+DEADBEEF
+DEADBEEF
+#Offline_Map_Patch - Extra download required to use: https://www.jayxbox.com/All-Patches/titles/Phantasy%20Star%20Online%20-%20Episode%20I%20&%20II/Extra/PSO_Offline_Map_Patch.zip
+DEADBEEF
+DEADBEEF
+#Disc_Music_Patch
+0x5499bc:ACDB4800F072460008E34400CCE34400C0E3440018B448
+#Quest_Music_Patch
+0x5420b8:CCE3440078E24400C0E3
+#Event_Music_Patch 1 of 2
+0x1ba180:B83C3B44008D480C833D408363000F0F44C18B0DB8457200EB03909090
+#Event_Music_Patch 2 of 2
+0x1ba204:BA
+#Ending_Music_Patch
+0x1dd5d9:403444007505B8543B
+#Reticle_Patch
+0x5351c6:803F00000000000000000000803F0000803F00000000000000000000803F0000803F0000803F000000000000803F00000000000000000000803F0000803FCDCCCC3ECDCCCC3DCDCCCC3D
+#Full_Word_Select_Patch
+0x28bc1a:33C0
+#Rain_Patch - 1 of 4
+0x1d2cda:9090
+#Rain_Patch - 2 of 4
+0x1d2d03:833D408363001E7420C7801C0200000A000000EB14833D408363001A7505E82A000000A12C5C6300C3
+#Rain_Patch - 3 of 4
+0x2b79d4:E83FB3F1FF
+#Rain_Patch - 4 of 4
+0x41c65e:C040000020409A99993F00004041000048C3
+#Deadzone_Patch
+0x2f8e88:E80F0000005683EE04E8060000005EE998000000668B44243C669930F66601D066C1F80866F7D8C1E010668B44243A669930F66601D066C1F80831C98D502882FA500F47C889C20FCA82C62882FE500F47C8894E18C3
+#Item_Loss_Prevention_Patch 1 of 18
+0xc1b85:00
+#Item_Loss_Prevention_Patch 2 of 18
+0xc1bfc:EB08
+#Item_Loss_Prevention_Patch 3 of 18
+0x1fe805:EB
+#Item_Loss_Prevention_Patch 4 of 18
+0x2019ca:EB74
+#Item_Loss_Prevention_Patch 5 of 18
+0x2191b5:9090
+#Item_Loss_Prevention_Patch 6 of 18
+0x219237:EB08
+#Item_Loss_Prevention_Patch 7 of 18
+0x21a222:9090
+#Item_Loss_Prevention_Patch 8 of 18
+0x21a29b:EB08
+#Item_Loss_Prevention_Patch 9 of 18
+0x21bf35:00
+#Item_Loss_Prevention_Patch 10 of 18
+0x21bf6e:EB08
+#Item_Loss_Prevention_Patch 11 of 18
+0x21c2e6:00
+#Item_Loss_Prevention_Patch 12 of 18
+0x2318e8:00
+#Item_Loss_Prevention_Patch 13 of 18
+0x23195c:EB08
+#Item_Loss_Prevention_Patch 14 of 18
+0x292904:00
+#Item_Loss_Prevention_Patch 15 of 18
+0x29297c:EB08
+#Item_Loss_Prevention_Patch 16 of 18
+0x2c677a:00
+#Item_Loss_Prevention_Patch 17 of 18
+0x2c67ed:EB08
+#Item_Loss_Prevention_Patch 18 of 18
+0x2e0e1e:EB
+#BugFix_Patch 1 of 8
+0x175f0e:1688969A0100008A4017
+#BugFix_Patch 2 of 8
+0x23467b:EB19
+#BugFix_Patch 3 of 8
+0x53fae8:0F000000711C00000F00018232000A00140002
+#BugFix_Patch 4 of 8
+0x53fb40:140000000000000019000A1916000A001C0002
+#BugFix_Patch 5 of 8
+0x53fb6c:19000000000000000F00017832001E00190004
+#BugFix_Patch 6 of 8
+0x53fb98:1E0000000000000028000A3218000A00180006
+#BugFix_Patch 7 of 8
+0x53fe00:0F000000711C000023000169030014001C0004
+#BugFix_Patch 8 of 8
+0x54568b:9070707060
+#Gibarta_Patch
+0x53FBA0:14
