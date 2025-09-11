@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=All-Star Baseball '04
+region=NTSC
+version=41430018 (AC-024)
+author=Author Unknown
+notes="Reboot fix"
+#Header Edit - Allowed Media & Region Flags
+0x21c:FF
+#Fix
+0x1e0c21:EB
