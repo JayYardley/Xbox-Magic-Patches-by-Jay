@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=007 - Agent Under Fire
+region=NTSC
+version=4541000D (EA-013)
+author=Author Unknown
+notes=Apply only "Default.xbe" options to "default.xbe", "Driving.xbe" options to "driving.xbe" etc (Uncheck options that aren't for the file you're patching, all 3 must be patched individually.)
+#Default.xbe - 480i Fix
+0x3c12c:9090518B4E2C528B56046A00
+#Default.xbe - 480i Fix
+0x429c8:9090528B502C6A00
+#Bond.xbe - 480i Fix
+0x18463c:9090518B4E2C528B56046A00
+#Bond.xbe - 480i Fix
+0x189a08:9090528B502C6A00
+#Driving.xbe - 480i Fix
+0x10643c:9090518B4E2C528B56046A00
+#Driving.xbe - 480i Fix
+0x10d398:9090528B502C6A00
