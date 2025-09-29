@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Incredible Hulk: Ultimate Destruction
+region=NTSC, JAPAN, PAL
+version=56550039 (VU-057)
+author=AgentEB
+notes=Disables media protection
+#Supported Media
+0x220:FF0100C0
+#HDD Fix
+0x1F9A94:EB4341
+#HDD Fix
+0x1F9AD5:7C46EB198B4508508B000C203D643A5C0075AF5856B800080000EB3390
