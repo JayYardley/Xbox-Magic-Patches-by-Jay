@@ -4,7 +4,7 @@ game-title=007: Everything or Nothing
 region=NTSC
 version=45410042 (EA-066)
 author=Unknown Author
-notes=
+notes=Apply to default.xbe. No patch was ever made for "driving.xbe".
 #16:9
 0x52110:EB4341
 #16:9
