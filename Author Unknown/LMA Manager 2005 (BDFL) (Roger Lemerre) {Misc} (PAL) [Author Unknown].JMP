@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=LMA Manager 2005
+region=PAL
+version=434D0046 (CM-070)
+author=Author Unknown
+notes=HDD filename Fix for FATX limitations. Download files necessary: (Download necessary: https://jayxbox.com/All-Patches/titles/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29/PAL_00000001_434D0046/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20-%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D%20-%20HDD%20Fix%20Files.zip)
+#Region change for whatever reason
+0x220:FF010040
+#File 1 - Null filename ending (Download necessary: https://jayxbox.com/All-Patches/titles/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29/PAL_00000001_434D0046/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20-%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D%20-%20HDD%20Fix%20Files.zip)
+0x3faea6:000000000000000000000000000000000000000000000000000000
+#File 2 - Null filename ending (Download necessary: https://jayxbox.com/All-Patches/titles/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29/PAL_00000001_434D0046/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20-%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D%20-%20HDD%20Fix%20Files.zip)
+0x3fb758:000000000000000000000000000000000000000000000000000000
+#File 3 - Null filename ending (Download necessary: https://jayxbox.com/All-Patches/titles/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29/PAL_00000001_434D0046/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20-%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D%20-%20HDD%20Fix%20Files.zip)
+0x3fb7af:000000000000000000000000000000000000000000000000000000
+#File 4 - Null filename ending (Download necessary: https://jayxbox.com/All-Patches/titles/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29/PAL_00000001_434D0046/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20-%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D%20-%20HDD%20Fix%20Files.zip)
+0x3fb804:000000000000000000000000000000000000000000000000000000
+#File 5 - Null filename ending (Download necessary: https://jayxbox.com/All-Patches/titles/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29/PAL_00000001_434D0046/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D/LMA%20Manager%202005%20%28BDFL%29%20%28Roger%20Lemerre%29%20-%20%7BMisc%7D%20%28PAL%29%20%5BAuthor%20Unknown%5D%20-%20HDD%20Fix%20Files.zip)
+0x3fb854:000000000000000000000000000000000000000000000000000000
