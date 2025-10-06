@@ -4,7 +4,7 @@ game-title=Black Stone: Magic & Steel
 region=NTSC+PAL
 version=58490004 (XI-004)
 author=Author Unknown
-notes=720p patch - HUD is stuck at the bottom of the top left screen and is in the way -nikeymikey
+notes=720p patch - HUD is stuck at the bottom of the top left screen and is in the way ~nikeymikey
 #Header Edit - Allowed Media & Region Flags
 0x21c:FF01004007
 #Window Views
