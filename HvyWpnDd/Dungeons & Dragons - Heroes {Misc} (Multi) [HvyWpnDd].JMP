@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Dungeons & Dragons - Heroes
+region=All regions
+version=4D530065 (MS-101)
+author=HvyWpnDd
+notes="Fix Anamorphic Widescreen" Patch arranged by Jay.
+#Fix Anamorphic Widescreen. More info: https://github.com/HvyWpnDd/xbox/blob/master/dungeons_and_dragons_heroes/widescreen.md
+8E79453E0000803F
+8E79453EABAAAA3F
