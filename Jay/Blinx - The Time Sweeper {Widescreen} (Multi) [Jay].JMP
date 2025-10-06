@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Blinx - The Time Sweeper
+region=All Regions
+version=4D530013 (MS-019)
+author=Combo Patch
+notes=Esppiral & Nemesis2000 both made earlier versions of this same patch, I just combined it for every version as this value appears exactly once in all of them.
+#Widescreen
+ABAAAABF
+388EE3BF
