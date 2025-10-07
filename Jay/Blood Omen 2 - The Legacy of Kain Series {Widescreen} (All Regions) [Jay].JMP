@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Blood Omen 2 - The Legacy of Kain Series
+region=All Regions
+version=45530006 (ES-006)
+author=Jay
+notes=Nemesis made the original patch. I added a missed value and rearranged this patch to work for all regions of the game. The HUD elements are stretched horizontally, maybe that fixes it. ~Jay
+#Aspect Ratio 1.333 -> 1.777
+804068ABAAAA3F
+804068398EE33F
+#Aspect Ratio 1.333 -> 1.777
+804068ABAAAA3F
+804068398EE33F
+#Aspect Ratio 1.333 -> 1.777 | FMV/Menu Fix
+000060C3ABAAAA3F
+000060C3398EE33F
+#Aspect Ratio 1.333 -> 1.777 | Missed value, possibly fixes HUD stretching? Test.
+5268ABAAAA3F
+5268398EE33F
