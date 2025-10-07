@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Greg Hastings' Tournament Paintball - Max'd
+region=GLOBAL
+version=41560057 (AV-087)
+author=Jay
+notes=Migrated HDD Fix from prequel. Haven't tested yet, let me know!
+#Header Edit - Limit RAM 64MB (OFF)
+0x124:01
+#Header Edit - Allowed Media & Region Flags
+0x220:FF02
+#HDD Fix
+0xDB064:EB4341
+#HDD Fix
+7D1B50E8B9150000E85E15000083F80275076A03E87A15000033C0EB33
+7C46EB198B4508508B000C203D643A5C0075AF5856B800080000EB3390
