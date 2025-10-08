@@ -4,7 +4,7 @@ game-title=Bloody Roar - Extreme
 region=NTSC
 version=48550001 (HU-001)
 author=x720p
-notes=Takes a while to apply. Played through 5 fights with no issues at all ~nikeymikey
+notes=Played through 5 fights with no issues at all ~nikeymikey
 #Header Edit - Limit RAM 64MB (OFF)
 0x124:01
 #Header Edit - Allowed Media & Region Flags
