@@ -1,22 +1,22 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Bloody Roar - Extreme
-region=NTSC
+region=All Regions
 version=48550001 (HU-001)
 author=Nemesis2000
-notes=Widescreen
-#16:9 A
+notes=Widescreen. Should work on all regions.
+#16:9
 5C8FA23F
 26BFD83F
-#16:9 B
+#16:9
 5C8FA23F
 26BFD83F
-#16:9 C
+#16:9
 5C8FA23F
 26BFD83F
-#16:9 D
+#16:9
 5C8FA23F
 26BFD83F
-#16:9 E
+#16:9
 5C8FA23F
 26BFD83F
