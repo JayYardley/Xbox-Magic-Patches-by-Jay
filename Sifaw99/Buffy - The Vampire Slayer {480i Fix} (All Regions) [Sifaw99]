@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Buffy - The Vampire Slayer
+region=All Regions
+version=45410012 (EA-018)
+author=Sifaw99
+notes=480i Fix
+#480i (Interlaced) -> 480p (Progressive)
+0x6091A0:02000000B40000800300000004000080
