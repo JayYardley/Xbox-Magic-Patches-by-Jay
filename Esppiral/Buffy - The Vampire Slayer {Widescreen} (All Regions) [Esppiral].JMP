@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Buffy - The Vampire Slayer
+region=All Regions
+version=45410012 (EA-018)
+author=Esppiral
+notes=Widescreen
+#Widescreen
+0x2948E6:D905788E1400D874246CDE
