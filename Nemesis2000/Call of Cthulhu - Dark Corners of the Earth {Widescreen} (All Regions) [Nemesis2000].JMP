@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Call of Cthulhu - Dark Corners of the Earth
+region=All Regions
+version=42530007 (BS-007)
+author=Nemesis2000
+notes=Added 2 additional values used in various 720p patches just in case ~Jay
+#Widescreen
+A5ACA93F
+398EE33F
+#Widescreen
+A5ACA93F
+398EE33F
+#Widescreen - (Optional - Additional Value(s) from other patches)
+713DAA3F
+398EE33F
+#Widescreen - (Optional - Additional Value(s) from other patches)
+ABAAAA3F
+398EE33F
