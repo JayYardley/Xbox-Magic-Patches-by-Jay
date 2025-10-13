@@ -1,8 +1,8 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Otogi - Myth of Demons
-region=NTSC
-version=46530002 (FS-002)
+region=NTSC&JPN
+version=46530002 (FS-002) NTSC [00000002] & JPN [00000004] 
 author=Nemesis2000
 notes=
 #Widescreen A
