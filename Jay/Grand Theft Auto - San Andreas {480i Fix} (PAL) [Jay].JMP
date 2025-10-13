@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Grand Theft Auto - San Andreas
+region=PAL
+version=545400A4 (TT-164), 54540095 (TT-149), 545400A5 (TT-165), 54540086 (TT-134)
+author=Jay
+notes=<br>480p Forced.<br>Only apply to your XBE revision.<br>If you apply all 4 patch options to your XBE that's on you.<br><br>Check versions here: https://www.jayxbox.com/Misc/XBE-Analyzer.php
+#480i Fix - [PAL 00000001 - 545400A4] https://www.jayxbox.com/Misc/XBE-Analyzer.php
+0x263B08:40
+#480i Fix - [PAL 00000001 - 54540095] https://www.jayxbox.com/Misc/XBE-Analyzer.php
+0x26308B:40
+#480i Fix - [PAL 00000001 - 545400A5] https://www.jayxbox.com/Misc/XBE-Analyzer.php
+0x26327E:40
+#480i Fix - [PAL 00000003 - 54540086] https://www.jayxbox.com/Misc/XBE-Analyzer.php
+0x263912:40
