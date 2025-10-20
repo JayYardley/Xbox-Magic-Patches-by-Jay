@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Colin McRae Rally 3
+region=JPN
+version=434D0001 (CM-001)
+author=Author Unknown
+notes=Repurposed for JPN if it really needs it.
+# 480i (Interlaced) -> 480p (Progressive)
+008B4E2C85C9740C83C840A3C05B510083C414C383C820A3C05B510083C414C38B
+008B4E2C85C9740C83C800A3C05B510083C414C383C800A3C05B510083C414C38B
