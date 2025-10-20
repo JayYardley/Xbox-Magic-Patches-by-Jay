@@ -4,7 +4,7 @@ game-title=Colin McRae Rally 2005
 region=PAL
 version=434D002B (CM-043)
 author=Author Unknown
-notes=
+notes=128MB mandatory, UI messed up, needs work.
 #Header Edit - Limit RAM 64MB (OFF)
 0x124:01
 #Header Edit - Allowed Media & Region Flags
@@ -175,3 +175,4 @@ notes=
 0x26cd98:000580029D02D002
 #640x480 -> 1280x720
 0x304e38:00050000D002
+
