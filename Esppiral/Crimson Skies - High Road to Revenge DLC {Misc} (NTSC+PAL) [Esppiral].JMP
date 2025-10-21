@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Crimson Skies: High Road to Revenge DLC
+region=NTSC&PAL
+version=4D530021 (MS-033) [00000201]+[00000203]
+author=Esppiral
+notes=<br>This should work for both NTSC & PAL DLC.<br>DLC xbe located in E:\TDATA\4d530021\default.xbe.<br><br>DLC can be found here: https://digiex.net/threads/xbox-offline-xbox-live-downloadable-content-dlc-installers.675
+# Aspect Ratio 16:9
+0x1da56:40
+# FPS
+0x122fa8:00
+# A float switched from "500" to "1000"
+0x29199a:FA43
