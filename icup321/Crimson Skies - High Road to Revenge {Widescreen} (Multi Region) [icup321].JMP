@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Crimson Skies: High Road to Revenge
+region=Multi Region
+version=4D530021 (MS-033) [NTSC 00000001]+[PAL 00000003]+[JPN 00000002]
+author=icup321
+notes=Widescreen
+#16:9
+0424680000803F680000803F8BCEE831060300F30F
+0424680000803F680000403F8BCEE831060300F30F
