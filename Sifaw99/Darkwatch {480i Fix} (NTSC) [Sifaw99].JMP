@@ -2,9 +2,9 @@
 system=Xbox
 game-title=Darkwatch
 region=NTSC
-version=43430016 (CC-022)
+version=43430016 (CC-022) [00000001]
 author=Sifaw99
 notes=480p Forced
-# 480i (Interlaced) -> 480p (Progressive)
+#480i (Interlaced) -> 480p (Progressive)
 C7463420010000
 C7463440010000
