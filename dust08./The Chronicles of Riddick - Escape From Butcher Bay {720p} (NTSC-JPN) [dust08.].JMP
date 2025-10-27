@@ -4,7 +4,7 @@ game-title=The Chronicles of Riddick: Escape From Butcher Bay
 region=NTSC, JAPAN, PAL
 version=56550026 (VU-038) [00000001]
 author=dust08.
-notes=
+notes=<br>The game uses a dynamic resolution system which I have adjusted to keep it higher longer, slightly more "smoothing" on the transitions, but also rapidly drop if it hits 20fps to keep it playable.<br>It can also be fully disabled if you want (performance will be bad).<br>I have tweaked the settings to take advantage of 128mb ram and increase fidelity in some more noticable areas while also doing some minor cuts in other areas to improve performance at higher resolution.<br>Comments are in the cfg if you would like to tweak settings.<br>All shaders and menus render correctly at 720p.<br><br>Please also download the EnvironmentXbox.cfg file and overwrite the stock one: https://www.jayxbox.com/All-Patches/titles/The%20Chronicles%20of%20Riddick%20-%20Escape%20From%20Butcher%20Bay/EnvironmentXbox.cfg
 #Header Edit - Limit RAM 64MB (OFF)
 0x124:01
 #Header Edit - Allowed Media & Region Flags
