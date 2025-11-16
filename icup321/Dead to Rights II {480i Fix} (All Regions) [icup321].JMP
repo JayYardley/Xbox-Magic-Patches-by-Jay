@@ -1,8 +1,8 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Dead to Rights II
-region=NTSC
-version=4E4D0015 (NM-021)
+region=All Regions
+version=4E4D0015 (NM-021) [NTSC 00000001] + [PAL 00000002] + [NTSC 4E4D8015 00000032] 
 author=icup321
 notes=
 #480i -> 480p fix
