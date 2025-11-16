@@ -4,7 +4,7 @@ game-title=Dead or Alive 3
 region=PAL+JPN
 version=4D53002D (MS-045)
 author=Esppiral
-notes=Hi Dave and Isaac! I have no idea how you'll pull this one off, I think it's for emulation :S
+notes=21:9 Widescreen Patch
 #21:9 - Works on both xbe's in game dir
 3F0000103F
 3F0000D83E
