@@ -2,9 +2,9 @@
 system=Xbox
 game-title=Dead or Alive 3
 region=PAL+JPN
-version=4D53002D (MS-045)
+version=4D53002D (MS-045) [JPN 00000001] + [JPN 00120206] + [PAL 00000001]
 author=Esppiral
-notes=21:9 Widescreen Patch
-#21:9 - Works on both xbe's in game dir
+notes=21:9 - Works on both xbe's in game dir.<br><br>(The USA version has different values around the virtual address "001ed7d0" in Ghidra. Check this one day.)
+#21:9
 3F0000103F
 3F0000D83E
