@@ -1,13 +1,13 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Dynasty Warriors 3
-region=NTSC
+region=All Regions
 version=4B4F0003 (KO-003)
 author=Esppiral
 notes=Widescreen
-# Changing some resolution related value from 224 to 168 (no idea)
+#224 to 168 - Possibly UI
 80020000E000000040010000F0000000
 80020000A800000040010000F0000000
-# A bizarre float increase that doesn't make sense to me yet, formatted similar to aspect ratio adjustments
+#Aspect Ratio adjustment
 35FA8E3C00003442
 F1A2BE3C00003442
