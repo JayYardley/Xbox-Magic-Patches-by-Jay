@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Dynasty Warriors 3
+region=All Regions
+version=4B4F0003 (KO-003)
+author=icup321
+notes=Widescreen
+#224 to 168 - Possibly UI
+80020000E000000040010000F0000000
+80020000A800000040010000F0000000
+#Aspect Ratio adjustment
+35FA8E3C00003442
+F1A2BE3C00003442
