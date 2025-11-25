@@ -1,8 +1,8 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Dynasty Warriors 4
-region=NTSC & PAL & JPN
-version=4B4F0004 (KO-004)
+region=Multi-Region
+version=4B4F0004 (KO-004) [JPN 00000004] + [USA-JPN 00000003]
 author=SeriMax
 notes=BEFORE https://cdn.discordapp.com/attachments/812618308150624286/1330024508622504027/image.png?ex=678e7399&is=678d2219&hm=4575993c378bc4745fafd0298fe8ee0ccc82c97f9274459f78652d7b10ef9953& AFTER https://cdn.discordapp.com/attachments/812618308150624286/1330024509390192662/image.png?ex=678e7399&is=678d2219&hm=2c2f357bfa6857a3a9a523ccea89ccbb30952e3953a2a74408ba94cbcf7d4974&
 #WIDESCREEN
