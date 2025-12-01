@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Chicken Little
+region=GLOBAL
+version=42560002 (BV-002) [00000001]
+author=icup321
+notes=Widescreen
+#Widescreen
+000080020000E0010000ABAAAA3F000000000000803F00
+000080020000E0010000398EE33F000000000000803F00
