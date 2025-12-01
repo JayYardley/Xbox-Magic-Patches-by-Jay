@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Disney's The Haunted Mansion
+region=All Regions
+version=544D000D (TM-013)
+author=Esppiral
+notes=Widescreen
+#Widescreen Aspect Ratio - Float 1.333 to 1.777
+688FAAAA3F518BCAD91C24E8
+688FAAE33F518BCAD91C24E8
