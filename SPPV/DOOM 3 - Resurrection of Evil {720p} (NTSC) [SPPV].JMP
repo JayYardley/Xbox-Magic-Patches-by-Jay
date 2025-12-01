@@ -1,0 +1,99 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=DOOM 3 - Resurrection of Evil
+region=NTSC
+version=4156004E (AV-078)
+author=SPPV
+notes=<br>1. Make 1st XBE by enabling all options.<br>2. Make 2nd XBE by disabling Toggle group.<br>3. Launch and enter gameplay using 1st XBE. See glicthes.<br>4. Reset and launch using 2nd XBE.<br><br>I have added many float edits on the off-chance some, (or all of them), fix the various HUD/UI issues.
+#Toggle Group - Enable for 1st XBE, Disable for 2nd
+0xfc3d:00050000C781E4030000D002
+#Toggle Group - Enable for 1st XBE, Disable for 2nd
+0x11d985:000500008B4D70C74110D002
+#Header Edit - Limit RAM 64MB (OFF)
+0x124:01
+#Header Edit - Allowed Media & Region Flags
+0x220:FF0100C0
+#Video Modes
+0x49e807:020A0B88741481FD020A0B88740C81FD020A0B
+#Video Modes
+0x4a9b48:020A0B88040149008002E001020A0B8804014800D002E001020A0B8804014900D002E001020A0B88040148028002E001020A0B88040149028002E001020A0B
+#Video Modes
+0x4a9d64:020A0B88040249008002E001020A0B8804024800D002E001020A0B8804024900D002E001020A0B88040248028002E001020A0B88040249028002E001020A0B
+#Back Buffer
+0x154a8c:D0020000680005
+#Back Buffer
+0x2c0de7:D0020000680005
+#Dirty Disc Error Screen
+0x3d25:00050000C74500D002
+#MemoryAllocation
+0x28779f:00050000C74610D002
+#CreateRenderTargetSurface
+0x2e3b6c:00050000C74710D002
+#UpdateViewport
+0x2e3c61:00050000C74710D002
+#Some Data Blob
+0x539db8:00050000D002
+#Optional Float Edits
+0x4b76a:3444680000A0
+#Optional Float Edits
+0x575aa:3444680000A0
+#Optional Float Edits
+0x577ef:3444680000A0
+#Optional Float Edits
+0x578ac:A0
+#Optional Float Edits
+0x578ed:A0
+#Optional Float Edits
+0x5792c:3444
+#Optional Float Edits
+0x5796d:3444
+#Optional Float Edits
+0x5c7c9:3444680000A0
+#Optional Float Edits
+0x126423:3444680000A0
+#Optional Float Edits
+0x126507:3444680000A0
+#Optional Float Edits
+0x12655e:3444680000A0
+#Optional Float Edits
+0x1265f8:3444680000A0
+#Optional Float Edits
+0x126af9:3444680000A0
+#Optional Float Edits
+0x1271df:3444680000A0
+#Optional Float Edits
+0x127203:3444680000A0
+#Optional Float Edits
+0x12728e:3444680000A0
+#Optional Float Edits
+0x1272b2:3444680000A0
+#Optional Float Edits
+0x12749f:3444680000A0
+#Optional Float Edits
+0x1274c2:3444680000A0
+#Optional Float Edits
+0x12753f:3444680000A0
+#Optional Float Edits
+0x127562:3444680000A0
+#Optional Float Edits
+0x1282f4:3444680000A0
+#Optional Float Edits
+0x12901c:3444680000A0
+#Optional Float Edits
+0x12906f:3444680000A0
+#Optional Float Edits
+0x1292b5:3444680000A0
+#Optional Float Edits
+0x129534:3444680000A0
+#Optional Float Edits
+0x12a339:3444680000A0
+#Optional Float Edits
+0x288f7f:3444680000A0
+#Optional Float Edits
+0x2eed60:3444680000A0
+#Optional Float Edits
+0x2efc49:3444680000A0
+#Optional Float Edits
+0x309716:3444
+#Optional Float Edits
+0x309759:3444
