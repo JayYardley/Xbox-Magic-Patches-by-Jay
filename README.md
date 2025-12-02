@@ -52,18 +52,18 @@ The second line of a patch record (the one after the comment line), dictates the
 + >#This patch record jumps to the offset "0x120" and inserts AABBCCDD, replacing the old data with the new. The size of replaced data is identical to the size of replacement data.
 + >0x120:AABBCCDD
 
-The colon is a separator for the offset and data.
-Offset patch records can have the following offset formats and all mean the same thing:
-+ >"120"
-+ >"0x120"
-+ >"00000120"
-+ >"0x00000120"
+    The colon is a separator for the offset and data.
+    Offset patch records can have the following offset formats and all mean the same thing:
+    + >"120"
+    + >"0x120"
+    + >"00000120"
+    + >"0x00000120"
 
 ##### Append:
 + >#This patch record adds the corresponding data exclusively onto the end of the XBE, nowehere else.
 + >APPEND:AABBCCDD
 
-The colon is a separator for the Append record type and data.
+    The colon is a separator for the Append record type and data.
 
 Patch records can theoretically go on forever.
 If you were looking to create a .JMP file, download one from here and recycle the formatting I use. Alternatively you can generate a templated .JMP using a stock .XBE and a patched .XBE here: [XBE2Magic](https://www.jayxbox.com/Retail-Game-Modification/XBE2Magic.php)
