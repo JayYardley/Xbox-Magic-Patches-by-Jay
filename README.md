@@ -36,9 +36,10 @@ For the "version=" header on xbox titles, I like including both the Title ID in 
 
 #### Below the headers are "Patch Records" and must initially be commented with a "#" line. Notice there is no line break between patch records.
 
-There are two types of patch records.
+There are three types of patch records.
 + >Search and Replace
 + >Offset
++ >Append
 
 ##### Search and replace:
 + >#This patch record searches for the first resulting "AABBCCDD" and replaces it with "DDCCBBAA"
@@ -57,6 +58,12 @@ Offset patch records can have the following offset formats and all mean the samn
 + >"0x120"
 + >"00000120"
 + >"0x00000120"
+
+##### Append:
++ >#This patch record adds the corresponding data exclusively onto the end of the XBE, nowehere else.
++ >APPEND:AABBCCDD
+
+The colon is a separator for the Append record type and data.
 
 Patch records can theoretically go on forever.
 If you were looking to create a .JMP file, download one from here and recycle the formatting I use. Alternatively you can generate a templated .JMP using a stock .XBE and a patched .XBE here: [XBE2Magic](https://www.jayxbox.com/Retail-Game-Modification/XBE2Magic.php)
