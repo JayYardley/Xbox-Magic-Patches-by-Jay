@@ -49,11 +49,11 @@ There are three types of patch records.
 The second line of a patch record (the one after the comment line), dictates the HEX value to "find". The third line is the HEX value that goes in it's place, effectively replacing the original data.
 
 ##### Offset:
-+ >#This patch record jumps to the offset "0x120" and inserts AABBCCDD
++ >#This patch record jumps to the offset "0x120" and inserts AABBCCDD, replacing the old data with the new. The size of replaced data is identical to the size of replacement data.
 + >0x120:AABBCCDD
 
 The colon is a separator for the offset and data.
-Offset patch records can have the following offset formats and all mean the samne thing:
+Offset patch records can have the following offset formats and all mean the same thing:
 + >"120"
 + >"0x120"
 + >"00000120"
