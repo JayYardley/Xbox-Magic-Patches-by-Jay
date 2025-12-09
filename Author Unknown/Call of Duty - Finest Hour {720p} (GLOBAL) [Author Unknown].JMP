@@ -4,7 +4,11 @@ game-title=Call of Duty: Finest Hour
 region=GLOBAL
 version=4156002A (AV-042) [00000001]
 author=Author Unknown
-notes=Multiplayer/Insignia uses a Title Update, so another patch is needed.
+notes=Multiplayer/Insignia uses a Title Update, so another patch is needed. Attempted HUD fix, let me know if it works.
+#Test - Fix HUD
+0x2D7980:0000C03E
+#Test - Fix HUD
+0x2D7AA0:0000C0BE
 #Header Edit - Allowed Media & Region Flags
 0x220:FF0100C0
 #Window Views
