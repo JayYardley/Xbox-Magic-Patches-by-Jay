@@ -1,10 +1,10 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Disney/Pixar Cars
-region=PAL
+region=All Regions
 version=545100F2 (TQ-242)
 author=Esppiral
-notes=
+notes=Widescreen
 #Widescreen
-42FE000046FFFE003F68BA2E
-42FE000046FFFE003F9B0900
+0000FE4200FEFF462EBA683F
+0000FE4200FEFF4600099B3F
