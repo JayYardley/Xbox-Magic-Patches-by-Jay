@@ -66,8 +66,10 @@ There are three types of patch records.
     The colon is a separator for the Append record type and data.
 
 ##### Disable Patch Record by default:
-Adding "[-]" to a patch record comment line disables the record by default when opening it in the Apply Magic Patcher.
+Adding "[-]" anywhere in a patch record comment line disables the record by default when opening it in the Apply Magic Patcher.
+It is hidden in the gui output.
 + >#This Patch record will be toggled off by default [-]
++ >#[-] This Patch record will be toggled off too
 
 Patch records can theoretically go on forever.
 If you were looking to create a .JMP file, download one from here and recycle the formatting I use. Alternatively you can generate a templated .JMP using a stock .XBE and a patched .XBE here: [XBE2Magic](https://www.jayxbox.com/Retail-Game-Modification/XBE2Magic.php)
