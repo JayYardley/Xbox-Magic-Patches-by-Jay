@@ -25,14 +25,15 @@ All patches are provided as-is, many are untested as of writing this. If you are
 
 + >#Jay's Magic Patcher (www.jayxbox.com)
 + >system=Xbox
-+ >game-title=Cool game
-+ >region=NTSC
-+ >version=56550041 (VU-065)
-+ >author=Jay
-+ >notes=This patch is awesome
++ >game-title=Halo 2
++ >region=Global
++ >version=4D530064 (MS-100) {302E6C4F}
++ >author=grimdoomer
++ >notes=Halo 2 720p
 
 Any relevant information MUST be added after the "=" sign for each header. Headers can be blank but must not be removed.
-For the "version=" header on xbox titles, I like including both the Title ID in HEX format, and the converted Title ID in brackets.
+For the "version=" header on xbox titles, I like including both the Title ID in HEX format, and the converted Title ID in brackets. 
+You can enter a CRC32 hash inside curly brackets for automatic .xbe file verification e.g "{302E6C4F}"
 
 #### Below the headers are "Patch Records" and must initially be commented with a "#" line. Notice there is no line break between patch records.
 
