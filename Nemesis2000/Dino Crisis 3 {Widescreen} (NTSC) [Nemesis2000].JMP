@@ -2,10 +2,10 @@
 system=Xbox
 game-title=Dino Crisis 3
 region=NTSC
-version=43430003 (CC-003)
+version=43430003 (CC-003) {9AF03B8B}
 author=Nemesis2000
-notes=
-#16:9
+notes=Widescreen and FMV fix
+#Widescreen
 68000080BF8D44246C50E80EAB05008D
 68000040BF8D44246C50E80EAB05008D
 #FMV's Fix
