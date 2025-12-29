@@ -4,7 +4,7 @@ game-title=Digimon World 4
 region=NTSC
 version=42410002 (BA-002) {B1399EC5}
 author=Nemesis2000
-notes=Resolution upped from 640x480 to 720x480
+notes=Widescreen (UI stretching)
 #Widescreen (Height increase of something to 720)
 D80D94B93000D91C24D944240CD80D94
 D80D86421800D91C24D944240CD80D94
