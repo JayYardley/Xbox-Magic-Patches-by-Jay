@@ -2,7 +2,7 @@
 system=Xbox
 game-title=Digimon World 4
 region=NTSC
-version=42410002 (BA-002)
+version=42410002 (BA-002) {B1399EC5}
 author=icup321
 notes=720p
 #640 -> 1280 (Width increase of horizontal pixels to 1280)
