@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=ESPN NFL 2K5ÿÿES
+region=NTSC
+version=53450030 (SE-048) {3A301E1A}
+author=Author Unknown
+notes=480i Fix
+#480i Fix
+0x418B31:508B4730508B472C518B4F04906A0090
