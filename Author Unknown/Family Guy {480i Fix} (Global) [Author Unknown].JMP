@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Family Guy
+region=NTSC, PAL
+version=545400B0 (TT-176) {DF87141E}
+author=Author Unknown
+notes=480i Fix
+#Header Edit - Allowed Media & Region Flags
+0x220:FF0100C007
+#480i Fix
+0xA6F91:508B4730508B472C518B4F04906A0090
