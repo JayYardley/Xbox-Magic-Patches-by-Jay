@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Fight Club
+region=Global
+version=5655002F (VU-047) {F914447C}
+author=Author Unknown
+notes=HDD/FATX Fix
+#Header Edit - Allowed Media & Region Flags
+0x220:FF0100C0
+#HDD Fix
+0x2E6C:EB4141
+#HDD Fix
+0x2EAD:7C178B4508508B000C203D643A5C0075B158B800080000EB37
