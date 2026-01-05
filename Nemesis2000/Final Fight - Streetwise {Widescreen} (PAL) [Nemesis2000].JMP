@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Final Fight - Streetwise
+region=PAL
+version=43430013 (CC-019) {4019679A}
+author=Nemesis2000
+notes=This widescreen patch originally had the USA/NTSC icon on ps2wide.net, but it was actually for the PAL version.
+#Widescreen
+0x1F1B44:000080
+#Widescreen
+0xA6F91:A4EE
+#Widescreen
+0x1F16BC:85EB71
+#Render Fix
+0xB0CAA:A4EE
