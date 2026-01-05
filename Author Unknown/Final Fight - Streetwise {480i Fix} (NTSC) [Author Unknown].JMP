@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Final Fight - Streetwise
+region=NTSC
+version=43430013 (CC-019) {769B6775} {094E0DE2}
+author=Author Unknown
+notes=480i Fix. Select the appropriate toggles for your xbe.
+#Apply to both xbe files - Header Edit - Allowed Media & Region Flags
+0x220:FF0100C007
+#Apply only to default.xbe - 480i (Interlaced) -> 480p (Progressive)
+0x166D71:508B4730508B472C518B4F04906A0090
+#Apply only to FinalF.xbe - 480i (Interlaced) -> 480p (Progressive)
+0x96061:508B4730508B472C518B4F04906A0090
