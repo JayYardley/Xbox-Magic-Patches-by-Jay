@@ -4,7 +4,7 @@ game-title=Broken Sword - The Sleeping Dragon
 region=PAL
 version=5451001D (TQ-029)
 author=Jay
-notes=Used the same logic that the NTSC 720p patch used and applied it to the PAL version. <br>No idea if this works, I included the 480i Fix. <br>Good luck.
+notes=Used the same logic that the NTSC 720p patch used and applied it to the PAL version.<br>No idea if this works, I included the 480i Fix by Zorlon.<br>Good luck.
 #480i (Interlaced) -> 480p (Progressive)
 0xA5C00:FF85C0EB05575757EB21F60524010100
 #480i (Interlaced) -> 480p (Progressive)
