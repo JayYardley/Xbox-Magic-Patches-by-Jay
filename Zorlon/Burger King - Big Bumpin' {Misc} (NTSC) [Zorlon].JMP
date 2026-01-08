@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Burger King: Big Bumpin
+region=NTSC
+version=4D5300D2 (MS-210)
+author=Zorlon
+notes=Just a "thumbnail fix".<br>No need to apply the patch, just download this: https://www.jayxbox.com/All-Patches/titles/Burger%20King%20-%20Big%20Bumpin'/default.tbn
+#Replace default.tbn with this download: https://www.jayxbox.com/All-Patches/titles/Burger%20King%20-%20Big%20Bumpin'/default.tbn [-]
+DEADBEEF
+DEADBEEF
