@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Freestyle MetalX
+region=NTSC
+version=4D570017 (MW-023) {97C75656}
+author=Author Unknown
+notes=480i Fix
+#480i Fix
+0x7514C:E8CAFDFFFF85C0EB
+#480i Fix
+0xCA0F5:E8CAFDFFFF85C0EB
+#480i Fix
+0x1D164C:9090518B4E2C528B56046A00
