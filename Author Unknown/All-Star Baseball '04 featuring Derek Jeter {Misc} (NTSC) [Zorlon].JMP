@@ -3,8 +3,8 @@ system=Xbox
 game-title=All-Star Baseball '04
 region=NTSC
 version=41430018 (AC-024)
-author=Author Unknown
-notes="Reboot fix"
+author=Zorlon
+notes="Reboot fix for some Modchip users" ~ Zorlon
 #Header Edit - Allowed Media & Region Flags
 0x21c:FF
 #Fix
