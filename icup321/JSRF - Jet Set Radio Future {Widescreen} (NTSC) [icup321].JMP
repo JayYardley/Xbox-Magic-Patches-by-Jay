@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=JSRF - Jet Set Radio Future
+region=NTSC
+version=5345000A (SE-010) {3A4A7CC8}
+author=icup321
+notes=Widescreen
+#Widescreen
+1E00A100E62200BA0000803FB90000000089108948
+1E00A100E62200BA0000403FB90000000089108948
