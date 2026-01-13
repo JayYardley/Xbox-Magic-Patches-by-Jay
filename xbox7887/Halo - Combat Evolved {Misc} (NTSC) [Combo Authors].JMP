@@ -1,0 +1,23 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Halo: Combat Evolved
+region=NTSC
+version=4D530004 (MS-004) {55EA3A03} {8A454B8E} {EE2672D1}
+author=Xbox7887, CabooseSayzWTF, possibly other unknown authors
+notes=Singleplayer Mode in Multiplayer maps.
+#Header Edit - Limit RAM 64MB (Off)
+0x124:01
+#Singleplayer Mode in Multiplayer maps
+0x8C4C7:01
+#Singleplayer Mode in Multiplayer maps
+0x8E27B:01
+#Singleplayer Mode in Multiplayer maps
+0xB74E4:01
+#Singleplayer Mode in Multiplayer maps
+0xB7557:01
+#Singleplayer Mode in Multiplayer maps
+0xB8ED6:01
+#Singleplayer Mode in Multiplayer maps
+0x175927:57908B96082300006A00
+#Singleplayer Mode in Multiplayer maps
+0x19E17D:33C040C20400
