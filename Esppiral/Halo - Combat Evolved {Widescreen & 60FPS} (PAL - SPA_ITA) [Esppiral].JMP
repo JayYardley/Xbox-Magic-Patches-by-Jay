@@ -1,10 +1,10 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Halo - Combat Evolved
-region=PAL (SPA_ITA)
-version=4D530004 (MS-004)
+region=PAL
+version=4D530004 (MS-004) {8FABE61C} {31031067} {6E95028A}
 author=Esppiral
-notes=Widescreen, HUD wip & 60fps
+notes=Widescreen, HUD wip & 60fps.<br>Please note there are 3 PAL versions of the game, i've combined them into one entry for the sake of the Patch Hub.
 #Widescreen
 D83D982B1F00D95C2418D9C9D8C9D83D982B1F00D95C241CDDD8D94720D84F10D9471CD84F14DEE9D95C2438D94714D8
 D83D800A1F00D95C2418D9C9D8C9D83D982B1F00D95C241CDDD8D94720D84F10D9471CD84F14DEE9D95C2438D94714D8
