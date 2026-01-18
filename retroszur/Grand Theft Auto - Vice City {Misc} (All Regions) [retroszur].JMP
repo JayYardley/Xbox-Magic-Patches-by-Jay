@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Grand Theft Auto: Vice City
+region=All Regions
+version=5454000F (TT-015) {4D66BBDE} {309C56DE} {0D4A03E4} {5ACBD11C} {65C09A95} {11ECC6CE} {83A9CDC8} {72FFA66D}
+author=retroszur
+notes=Can be applied to any version of the game.<b>This patch remedies what I assume to be the problematic Ammo count positioning in the HUD.
+#HUD Fix
+713DAA3F0000803FEC51983F
+5555D53F0000803FEC51983F
+#HUD Fix
+00008C42000070420000
+0000A642000070420000
+#HUD Fix
+CDCCCC3A9A9939400A
+49507C3A9A9939400A
