@@ -2,7 +2,7 @@
 system=Xbox
 game-title=Half-Life 2
 region=GLOBAL
-version=4541009 (EA-145)
+version=4541009 (EA-145) {5DC8E588}
 author=Felipe_Developer
 notes=Upscaled 1280x720, apply to HL2_XBOX.xbe, horizontal tiled memory back buffer issue
 # Widescreen - APPLY TO HL2_XBOX.XBE
