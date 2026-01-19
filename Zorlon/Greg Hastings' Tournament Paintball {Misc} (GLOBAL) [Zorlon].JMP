@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Greg Hastings' Tournament Paintball
+region=NTSC, JAPAN, PAL
+version=41560042 (AV-066) {88E1C1F0}
+author=Zorlon
+notes=HDD Fix
+#Header Edit - Limit RAM 64MB (OFF)
+0x124:01
+#Header Edit - Allowed Media & Region Flags
+0x220:FF
+#HDD Fix
+0xDA909:EB4341
+#HDD Fix
+0xDA94A:7C46EB198B4508508B000C203D643A5C0075AF5856B800080000EB3390
