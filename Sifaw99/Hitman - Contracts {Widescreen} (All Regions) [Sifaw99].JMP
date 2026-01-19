@@ -1,13 +1,13 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Hitman - Contracts
-region=PAL
+region=All Regions
 version=45530012 (ES-018)
 author=Sifaw99
-notes=480p Forced
-# 480i (Interlaced) -> 480p (Progressive)
-C7853C13000020010000
-C7853C13000040010000
-# Widescreen
+notes=Widescreen
+#Widescreen
 C7853C13000030010000
 C7853C13000010010000
+#Widescreen
+C7853C13000020010000
+C7853C13000040010000
