@@ -1,10 +1,10 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Grand Theft Auto III
-region=NTSC
-version=5454000E (TT-014)
+region=All Regions
+version=5454000E (TT-014) {27CF9225} {062DC5BD} {4E9BDD79} {77172A56} {84B5E974}
 author=Esppiral
-notes=Widescreen & HUD fix, it's suggested to set xbox video settings to normal mode
+notes=Widescreen & HUD fix.<br>It's suggested to set xbox video settings to normal mode.
 #Aspect Ratio
 713DAA3F0000803FEC51983F66666640000048420AD7A33B
 5555D53F0000803FEC51983F66666640000048420AD7A33B
