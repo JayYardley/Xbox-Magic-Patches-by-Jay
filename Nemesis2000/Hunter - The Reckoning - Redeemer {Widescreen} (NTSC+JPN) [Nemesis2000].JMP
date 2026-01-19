@@ -1,9 +1,9 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Hunter - The Reckoning - Redeemer
-region=NTSC
-version=5655002D (VU-045)
+region=NTSC+JPN
+version=5655002D (VU-045) {25DF88E3}
 author=Nemesis2000
-notes=
+notes=Widescreen
 #Widescreen
 0x1412C0:D9C0D84938D80DEE131500D9C0D9E0D9593CD95944D9C0D9E0D95940D95948C3
