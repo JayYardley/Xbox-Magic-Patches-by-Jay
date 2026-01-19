@@ -5,13 +5,6 @@ region=NTSC
 version=45410077 (EA-119) {A67A2F07}
 author=Silverrock
 notes="Some Slowdowns."
-#Jay's Magic Patcher (www.jayxbox.com)
-system=Xbox
-game-title=Harry Potter and the Goblet of Fire
-region=NTSC
-version=45410077 (EA-119)
-author=Silverrock
-notes="Some Slowdowns."
 #Header Edit - Limit RAM 64MB (OFF)
 0x124:01
 #Video Mode Table
