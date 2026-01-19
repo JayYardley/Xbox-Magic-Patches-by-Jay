@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=IndyCar Series 2005
+region=NTSC
+version=434D0024 (CM-036) {D62053BF}
+author=Zorlon
+notes=HDD Fix
+#HDD Fix
+0x9136C:00
