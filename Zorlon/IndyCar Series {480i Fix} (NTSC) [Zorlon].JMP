@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=IndyCar Series
+region=NTSC
+version=434D0006 (CM-006) {54848292}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x95A96:EB
+#480i Fix
+0xD373C:9090518B4E2C528B56046A00
+#480i Fix
+0xD5B31:508B4730508B472C518B4F04906A0090
+#480i Fix
+0x15689E:40
