@@ -2,12 +2,12 @@
 system=Xbox
 game-title=I-Ninja
 region=NTSC
-version=4E4D000F (NM-015)
+version=4E4D000F (NM-015) {DA260AF1}
 author=Sifaw99
-notes=480p Forced
-# 480i (Interlaced) -> 480p (Progressive)
+notes=480i Fix.<br>I'm not confident in this one, there was a PAL patch too.<br>I-Ninja only had a NA release.
+#480i Fix
 82C920010000894A
 82C940010000894A
-# Widescreen
+#480i Fix
 81C920010000894A
 82C910000000894A
