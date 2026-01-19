@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=High Rollers Casino
+region=NTSC
+version=4253000F (BS-015) {915D645E}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x17CCC1:508B4730508B472C518B4F04906A0090
