@@ -1,0 +1,14 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Leisure Suit Larry - Magna Cum Laude
+region=NTSC, JAPAN
+version=56550031 (VU-049) {B950F81D}
+author=Zorlon
+notes=HDD Fix & Censorship Removal - Apply to default.xbe<br>Censorship mod is separate.<br>Download mod here and merge with game folder: https://jayxbox.com/All-Patches/titles/Leisure%20Suit%20Larry%20-%20Magna%20Cum%20Laude/Leisure_Suit_Larry_Uncensored.zip
+#[-]Download Censor Mod: https://jayxbox.com/All-Patches/titles/Leisure%20Suit%20Larry%20-%20Magna%20Cum%20Laude/Leisure_Suit_Larry_Uncensored.zip
+DEADBEEF
+DEADBEEF
+#Header Edit - Allowed Media & Region Flags
+0x220:FF0100C0
+#HDD Fix
+0x168376:EB
