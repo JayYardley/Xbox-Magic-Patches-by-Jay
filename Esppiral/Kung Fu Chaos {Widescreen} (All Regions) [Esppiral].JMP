@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Kung Fu Chaos
+region=All Regions
+version=4D530031 (MS-049) {1F962D6A} {1EF102CD} {41983FD4}
+author=Esppiral
+notes=Widescreen.<br>HUD is stretched wide as a side effect.<br>Apply interlaced patch for best results.
+#Widescreen
+00ABAAAA3FC7
+00398EE33FC7
