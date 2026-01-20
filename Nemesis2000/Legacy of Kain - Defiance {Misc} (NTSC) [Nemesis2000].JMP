@@ -2,9 +2,9 @@
 system=Xbox
 game-title=Legacy of Kain - Defiance
 region=NTSC
-version=4553000F (ES-015)
+version=4553000F (ES-015) {2A74E5AA}
 author=Nemesis2000
-notes=Native Widescreen Support
+notes=Cutscene Bars Fix
 #Cutscene Letterbox Fix
 34EA460084C0740E
 34EA460084C0EB0E
