@@ -1,0 +1,35 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Madden NFL 2002
+region=NTSC
+version=45410001 (EA-001) {32643768}
+author=OldGreenAndWise
+notes=Fix Menus in widescreen mode.
+#Main menus being set to widescreen
+0xB33A7:398EE3
+#Main menus being set to widescreen
+0xCCEF5:398EE3
+#Main menus being set to widescreen
+0x14909B:398EE3
+#Main menus being set to widescreen
+0x1490E3:398EE3
+#Main menus being set to widescreen
+0x149399:398EE3
+#Main menus being set to widescreen
+0x149639:398EE3
+#Main menus being set to widescreen
+0x14CBF6:398EE3
+#Main menus being set to widescreen
+0x14CCCD:398EE3
+#Main menus being set to widescreen
+0x16D777:398EE3
+#Main menus being set to widescreen
+0x16DDCA:398EE3
+#Main menus being set to widescreen
+0x16F537:398EE3
+#Main menus being set to widescreen
+0x17093A:398EE3
+#Main menus being set to widescreen
+0x170C8F:398EE3
+#Main menus being set to widescreen
+0x19D9EE:398EE3
