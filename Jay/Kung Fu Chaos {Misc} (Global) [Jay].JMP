@@ -1,9 +1,0 @@
-#Jay's Magic Patcher (www.jayxbox.com)
-system=Xbox
-game-title=Kung Fu Chaos
-region=NTSC, JAPAN
-version=4D530031 (MS-049)
-author=Jay
-notes=If using Cerbios the ghosting effect has been fixed. Enable forced 480p in the cerbios.ini file.
-#Widescreen (Stretches HUD too)
-0xB6501:398EE3
