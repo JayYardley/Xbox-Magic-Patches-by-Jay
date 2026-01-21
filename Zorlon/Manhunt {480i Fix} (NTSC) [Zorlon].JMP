@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Manhunt
+region=NTSC
+version=54540019 (TT-025) {5E8920C3}
+author=Zorlon
+notes=480i Fix
+#480i (Interlaced) -> 480p (Progressive)
+308E41008915E43641008B152C8E4100A3D0364100A1348E4100
+308E41008915E436410033D290909090A3D0364100A1348E4100
