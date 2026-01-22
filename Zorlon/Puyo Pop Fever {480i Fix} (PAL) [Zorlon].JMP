@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Puyo Pop Fever
+region=PAL
+version=53450027 (SE-039) {9E40D243}
+author=Zorlon
+notes=480i Fix
+#Header Edit - Allowed Media & Region Flags
+0x220:FF010040
+#480i (Interlaced) -> 480p (Progressive)
+0xF85E1:508B4730508B472C518B4F04906A0090
