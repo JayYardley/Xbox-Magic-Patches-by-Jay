@@ -1,10 +1,13 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
-game-title=Map Editor
+game-title=Pariah
 region=GLOBAL
 version=47560001 (GV-001)
 author=Author Unknown
-notes=Toggle the options for "Default.xbe" and/or "MiniEd.xbe", both need patching.
+notes=Toggle the options for "Default.xbe" and/or "MiniEd.xbe", both need patching.<br>Don't forget optimized Default.ini: (Place in Pariah\System\): https://www.jayxbox.com/All-Patches/titles/Pariah/Default.ini
+#[-] Download Optimized Default.ini (Place in Pariah\System\): https://www.jayxbox.com/All-Patches/titles/Pariah/Default.ini
+DEADBEEF
+DEADBEEF
 #Apply to Default.xbe - Header Edit - Limit RAM 64MB (OFF)
 0x124:01
 #Apply to Default.xbe - Header Edit - Allowed Media & Region Flags
@@ -189,6 +192,3 @@ notes=Toggle the options for "Default.xbe" and/or "MiniEd.xbe", both need patchi
 0x34dfa8:000520011C101254000360000005D0020B010104000361000005D0020B01011400036000D002D0020C02020400036100D002D0020C020214000340010005
 #Apply to MiniEd.xbe - 640x480 -> 1280x720
 0x34e014:0005D002110D0F04000361020005D002
-#Download Optimized Default.ini (Place in Pariah\System\): https://www.jayxbox.com/All-Patches/titles/Pariah/Default.ini
-DEADBEEF
-DEADBEEF
