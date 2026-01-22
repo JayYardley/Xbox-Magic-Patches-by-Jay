@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Peter Jackson's King Kong - The Official Game of the Movie
+region=GLOBAL
+version=5553004C (US-076) {12E9498A}
+author=Silverrock
+notes=Widescreen
+#Header Edit - Allowed Media & Region Flags
+0x220:FF0100C0
+#Widescreen
+0x128:BE8C8494
+#Widescreen
+0x158:52DFFAEF
+#Widescreen
+0x4B77D4:398EE3
+#Widescreen
+0x4E947A:10
+#Widescreen
+0x4FE428:803F
