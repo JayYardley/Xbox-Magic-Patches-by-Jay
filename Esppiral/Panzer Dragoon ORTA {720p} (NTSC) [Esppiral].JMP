@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Panzer Dragoon ORTA
+region=NTSC
+version=53450007 (SE-007) {105EF843}
+author=Esppiral
+notes=720p requires 128MB for gameplay. Option for 1080i runs very poorly.
+#Header Edit - Allowed Media & Region Flags
+0x21C:FF01004007
+#640x480 -> 1280x720 [Floats] (Disable this if using 1080i option)
+0x332E36:A044000034440000A04400003444
+#640x480 -> 1280x720 [Integers]
+0x34A791:050000D002000000050000D002
+#1080i [OPTIONAL] - 640x480 -> 1920x1080 [Floats] (Disable 720p if using 1080i option) [-]
+0x332E36:F044000087440000F04400008744
