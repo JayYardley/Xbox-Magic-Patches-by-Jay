@@ -3,8 +3,8 @@ system=Xbox
 game-title=Psi-Ops - The Mindgate Conspiracy
 region=PAL
 version=4D570016 (MW-022) {AA8499BE}
-author=
-notes=
+author=Author Unknown
+notes=720p
 #Header Edit - Limit RAM 64MB (OFF)
 0x124:01
 #VideoModeTable
