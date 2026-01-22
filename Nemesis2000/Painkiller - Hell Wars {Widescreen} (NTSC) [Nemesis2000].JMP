@@ -2,12 +2,12 @@
 system=Xbox
 game-title=Painkiller - Hell Wars
 region=NTSC
-version=44430003 (DC-003)
+version=44430003 (DC-003) {0FE34F02}
 author=Nemesis2000
-notes=
-#Widescreen A
+notes=Widescreen
+#Widescreen
 D83D083B2F00D910
 D87C240C9090D910
-#Widescreen B
+#Widescreen
 680000803FD9837402000052D80D083E
 680000403FD9837402000052D80D083E
