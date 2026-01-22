@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Psychonauts
+region=NTSC
+version=4D4A0012 (MJ-018) {391152D8}
+author=icup321
+notes=60 FPS Patch, Scissor Fix, No AA
+#?
+0x1b0cab:01
+#?
+0x1b0cca:20
+#?
+0x268dc0:909090909090
