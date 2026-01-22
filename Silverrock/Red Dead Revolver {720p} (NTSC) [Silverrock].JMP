@@ -4,7 +4,7 @@ game-title=Red Dead Revolver
 region=NTSC
 version=5454001A (TT-026) {4C66B899}
 author=Silverrock
-notes=128MB RAM upgrade mandatory, will not boot otherwise. Widescreen must be disabled in the main xbox dashboard. Added fixes for 16:9 and UI stuffs ~Jay
+notes=128MB RAM upgrade mandatory.<br>Widescreen must be disabled in the main xbox dashboard.<br>Added fixes for 16:9 and UI stuffs<br>There is a bar in the middle of the screen that has yet to be fixed. ~Jay
 #Header Edit - Limit RAM 64MB (OFF)
 0x124:01
 #Header Edit - Allowed Media & Region Flags
