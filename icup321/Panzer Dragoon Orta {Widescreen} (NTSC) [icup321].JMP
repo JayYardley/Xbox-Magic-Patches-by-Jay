@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Panzer Dragoon ORTA
+region=NTSC
+version=53450007 (SE-007) {6878C276}
+author=icup321
+notes=Apply to "PD1.xbe", not "default.xbe"
+#PD1.xbe - Widescreen
+00000000000000000000000100000000000000000000
+00000000000000000000C00000000000000000000000
