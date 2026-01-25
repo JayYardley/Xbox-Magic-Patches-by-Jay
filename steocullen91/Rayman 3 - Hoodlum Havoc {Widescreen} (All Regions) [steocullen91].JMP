@@ -1,0 +1,16 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Rayman 3 - Hoodlum Havoc
+region=All Regions
+version=55530002 (US-002) {D51FBDFC} {9808E563} {B3665298}
+author=steocullen91
+notes=Widescreen, Cutscene and render fixes.
+#Widescreen
+D9442410680000003F
+D94424106800001C3F
+#Render Fix
+8B4658D95C2418680000003F
+8B4658D95C24186800001C3F
+#Cutscene Fix
+5C2418680000003FD9465851
+5C24186800001C3FD9465851
