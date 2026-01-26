@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Yetisports Arctic Adventures
+region=NTSC, PAL
+version=4A570004 (JW-004) {07DF815B}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x439841:508B4730508B472C518B4F04906A0090
