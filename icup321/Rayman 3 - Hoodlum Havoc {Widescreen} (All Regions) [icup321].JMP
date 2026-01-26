@@ -1,0 +1,23 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Rayman 3 - Hoodlum Havoc
+region=All Regions
+version=55530002 (US-002) {D51FBDFC} {9808E563} {B3665298}
+author=icup321
+notes=Widescreen.<br>Don't forget to apply the various fixes to their corresponding files.
+#Widescreeen
+0x2f3b3:D83DF401
+#Widescreeen
+0x2f3f0:D83DF401
+#Widescreeen
+0x2f55e:9090D80DF401
+#Widescreeen
+0x2f58c:9090D80DF401
+#Widescreeen
+0x8d0f0:909090909090D80D0800
+#Fixes - Patch file "ten_map.lvl" [Reflux Face Fix]
+0xe08f8:0202000000
+#Fixes - Patch file "knaar_60.lvl" [Reflux Face Fix]
+0x1a755c:0202000000
+#Fixes - Patch file "intro_17.lvl" [Fairy Council Windows Fix]
+0x8c078:0102000020
