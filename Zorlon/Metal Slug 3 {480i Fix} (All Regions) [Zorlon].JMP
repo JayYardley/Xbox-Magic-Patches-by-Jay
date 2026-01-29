@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Metal Slug 3
+region=All Regions
+version=534E0002 (SN-002) {AE118E61}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+C7442434200000
+C7442434000000
