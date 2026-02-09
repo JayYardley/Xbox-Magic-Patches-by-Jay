@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Star Wars - Jedi Knight II - Jedi Outcast
+region=All Regions
+version=4C410009 (LA-009) {F06C0A1B} {D8F13A9B} {324E0410}
+author=Esppiral
+notes=Widescreen.
+#Widescreen
+3830000063675F66
+3930000063675F66
+#Widescreen
+0000803F00000000000000000000000000000000000000000000803F0A
+ABAAAA3F00000000000000000000000000000040000000000000803F0A
