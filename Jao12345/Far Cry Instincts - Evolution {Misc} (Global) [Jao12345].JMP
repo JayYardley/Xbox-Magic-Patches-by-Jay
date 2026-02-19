@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Far Cry Instincts - Evolution
+region=Global
+version=55530060 (US-096) {CEA61723}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x19d5bc:01

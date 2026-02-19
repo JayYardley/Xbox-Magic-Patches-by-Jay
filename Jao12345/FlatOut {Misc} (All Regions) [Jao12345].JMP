@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=FlatOut (Xplosiv)
+region=All Regions
+version=454D0009 (EM-009) {986A3757} {34E26A43} {24FE61F7}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+2438896C243CC744244002000080C7442424030000
+2438896C243CC744244001000080C7442424030000
