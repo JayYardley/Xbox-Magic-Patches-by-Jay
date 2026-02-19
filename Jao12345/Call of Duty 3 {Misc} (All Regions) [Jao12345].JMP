@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Call of Duty 3
+region=All Regions
+version=4156005D (AV-093) {6858F072} {020284F3} {8FA1B051}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x4c116:9090
+#60 FPS
+0x63655:55
