@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Far Cry Instincts
+region=Global
+version=55530008 (US-008) {A77C0477}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x23193b:01

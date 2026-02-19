@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Family Guy - Video Game!
+region=NTSC+PAL
+version=545400B0 (TT-176) {DF87141E}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x18096:9DD606
+#60 FPS
+0x642a8:9DD606
