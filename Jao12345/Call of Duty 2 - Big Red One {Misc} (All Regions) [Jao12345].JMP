@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Call of Duty 2: Big Red One
+region=All Regions
+version=41560051 (AV-081) {A014996F} {0BFE3227} {5C8548BF} {837AC7CD}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+78279000C7058027900002000080891D7C279000E8
+78279000C7058027900001000080891D7C279000E8
