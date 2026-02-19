@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=007 - Agent Under Fire
+region=NTSC
+version=4541000D (EA-013) {77E7B0E9}
+author=Jao12345
+notes=60FPS. Apply this patch to "Bond.xbe", not "default.xbe".
+#60FPS
+5C603400C7057860340002000000893570603400E8
+5C603400C7057860340001000000893570603400E8
