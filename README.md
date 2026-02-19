@@ -64,7 +64,7 @@ There are three types of patch records.
 + >#This patch record adds the corresponding data exclusively onto the end of the XBE, nowehere else.
 + >APPEND:AABBCCDD
 
-    The colon is a separator for the Append record type and data.
+    The colon is a separator for the Append record type and data. Append is used for "exploded" xbe files, which are virtually extended to make room for code caves for advanced patches, (see the base of the Halo 2 grimdoomer JMP).
 
 ##### Disable Patch Record by default:
 Adding "[-]" anywhere in a patch record comment line disables the record by default when opening it in the Apply Magic Patcher.
