@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Conker - Live and Reloaded
+region=All Regions (Except Demos)
+version=4D530051 (MS-081) {645C76B6} {CE286E6A} {FFD0DABC}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x1e6b23:01
+#60 FPS
+0x299dcc:01
