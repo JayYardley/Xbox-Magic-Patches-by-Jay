@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Driver - Parallel Lines
+region=Global
+version=4947007F (IG-127) {3B614E57}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x1d53cc:C74664000070425E5B8BE55DC3
+#60 FPS
+0x23c224:01
