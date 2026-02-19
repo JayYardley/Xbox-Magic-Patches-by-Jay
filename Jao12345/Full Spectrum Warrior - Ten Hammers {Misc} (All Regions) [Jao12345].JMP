@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Full Spectrum Warrior - Ten Hammers
+region=All Regions (Except demo)
+version=545100F8 (TQ-248) {18B73029} {F9395F39} {18F3E17B}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+C786C06B00002A0000008D8C0900000080898ECC6B00008A4C240E
+C786C06B00002A000000B9010000009090898ECC6B00008A4C240E
