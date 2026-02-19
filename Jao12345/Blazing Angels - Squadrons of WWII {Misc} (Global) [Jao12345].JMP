@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Blazing Angels - Squadrons of WWII
+region=Global
+version=55530057 (US-087) {AAC89A69}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+2F008D48FFB801000000D3E08B0DD43636008915C0B3
+2F008D48FFB80100000090908B0DD43636008915C0B3

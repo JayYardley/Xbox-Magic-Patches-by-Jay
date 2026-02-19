@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Batman Begins
+region=NTSC
+version=45410389 (EA-905) {9AE174F5}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+D8E8F95F1B0083F803B91E0000007520F6C340751B
+D8E8F95F1B0083F803B93C0000007520F6C340751B
