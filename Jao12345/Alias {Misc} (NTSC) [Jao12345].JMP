@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=ALIAS
+region=NTSC
+version=41430016 (AC-022) {4C460286}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x648bd:B800000000A3C8631F00
+#60 FPS
+0x64b8b:00
