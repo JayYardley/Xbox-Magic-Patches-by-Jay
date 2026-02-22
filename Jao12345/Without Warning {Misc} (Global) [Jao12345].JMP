@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Without Warning
+region=Global
+version=43430014 (CC-020) {040E09AA}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x7c6ed:02
