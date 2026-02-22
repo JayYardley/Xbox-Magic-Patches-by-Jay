@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Operation Flashpoint: Elite
+region=Global
+version=434D005A (CM-090) {A3C5FC3D}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+F82F7611C786B401000004000000B803000000EB18
+F82F7611C786B401000001000000B803000000EB18
