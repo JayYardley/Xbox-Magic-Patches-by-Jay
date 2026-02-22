@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Amped 2
+region=All Regions
+version=4D530041 (MS-065)
+author=Jao12345
+notes=60 FPS
+#60 FPS
+C70702000080A3
+C70701000080A3
+#60 FPS
+020000805F5EC3CC
+010000805F5EC3CC
