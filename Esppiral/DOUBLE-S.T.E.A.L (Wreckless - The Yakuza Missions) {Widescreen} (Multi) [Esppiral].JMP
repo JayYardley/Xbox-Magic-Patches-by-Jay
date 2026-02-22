@@ -1,10 +1,10 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
-game-title=Wreckless - Yakuza Missions
-region=PAL
-version=4156000C (AV-012)
+game-title=DOUBLE-S.T.E.A.L (Wreckless - The Yakuza Missions)
+region=Multi
+version=4156000C (AV-012) {9A9292BD} {24AC60F1} {779D565A} {7242C4E2} {7A268671}
 author=Esppiral
-notes=
+notes=Widescreen, for all but NTSC.
 #Widescreen A
 C7000000403FC390
 C7000000103FC390
