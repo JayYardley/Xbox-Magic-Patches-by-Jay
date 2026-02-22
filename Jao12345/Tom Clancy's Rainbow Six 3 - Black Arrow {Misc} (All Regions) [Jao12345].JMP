@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tom Clancy's Rainbow Six 3 - Black Arrow
+region=All Regions
+version=55530037 (US-055) {27889DA6} {B2DF8FFB}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+AC460000C785BC4600000200008083C00550525253
+AC460000C785BC4600000100008083C00550525253
