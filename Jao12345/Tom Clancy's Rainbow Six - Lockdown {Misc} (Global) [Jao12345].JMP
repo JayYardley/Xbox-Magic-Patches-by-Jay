@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tom Clancy's Rainbow Six - Lockdown
+region=Global
+version=55530048 (US-072) {B257F148}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x26166c:01
