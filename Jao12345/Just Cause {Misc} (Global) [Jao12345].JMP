@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Just Cause
+region=Global
+version=534300FB (SC-251) {BE32FC21}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x1863f:01
