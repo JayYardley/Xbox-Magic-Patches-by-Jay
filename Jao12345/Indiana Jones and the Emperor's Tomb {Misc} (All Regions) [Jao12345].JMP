@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Indiana Jones and the Emperor's Tomb
+region=All Regions
+version=4C410007 (LA-007) {9F5791CA} {FCB93072}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+75D5DDD8E8
+9090DDD8E8
+#60 FPS
+EB07BD010000008BC5894424448B868002000083F8
+EB07BD010000008BC5896C24448B868002000083F8
