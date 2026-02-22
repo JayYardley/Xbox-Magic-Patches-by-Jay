@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tom Clancy's Ghost Recon 2
+region=Global
+version=55530005 (US-005) {552F098D}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x11a24:909090909090909090909090
