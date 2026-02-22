@@ -2,9 +2,9 @@
 system=Xbox
 game-title=Worms 3D
 region=PAL
-version=5345002A (SE-042)
+version=5345002A (SE-042) {03056EBE}
 author=Dreamcazman
-notes=480p Forced
-#480i (Interlaced) -> 480p (Progressive)
+notes=480i Fix
+# 480i (Interlaced) -> 480p (Progressive)
 4CBB320000008D
 4CBB3C0000008D
