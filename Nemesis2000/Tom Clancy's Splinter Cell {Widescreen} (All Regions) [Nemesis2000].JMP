@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tom Clancy's Splinter Cell
+region=All Regions
+version=5553000C (US-012) {C14FA9A0} {49507387} {CC6931DF} {C1A347EC} {CA508EE6} {43CD1020}
+author=Nemesis2000
+notes=Widescreen
+#Widescreen
+B80000803F8981900000008B54241089828C000000
+B80000403F89818C000000D9E8D999900000009090
