@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Unreal II - The Awakening [U2_Retail.xbe]
+region=NTSC, JAPAN
+version=4947003C (IG-060) {A7ABA5CE}
+author=Jao12345
+notes=60 FPS. Apply this patch to "U2_Retail.xbe", not "default.xbe".
+#[Apply only to U2_Retail.xbe]60 FPS
+0000897C2434C744245002000080E88E40270085C0
+0000897C2434C744245001000080E88E40270085C0
+#[Apply only to U2_Retail.xbe]60 FPS
+98460000C786C446000002000080C786C046000000
+98460000C786C446000001000080C786C046000000
