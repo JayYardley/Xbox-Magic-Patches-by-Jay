@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Rogue Ops
+region=All Regions
+version=4B420004 (KB-004) {2A37665D} {68179449} {C2B07635}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+1BC981E1FEFFFF7F83C102894C24608A9030840E00
+1BC981E1FEFFFF7F83C101894C24608A9030840E00
