@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tom Clancy's Rainbow Six 3
+region=All Regions (Except Demos)
+version=55530013 (US-019) {E9392DD5} {A5039687} {13F868E8} {36AD596A} {2BA54AF2} {456BCF6F}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+52535251C785BC46000002000080899598460000C7
+52535251C785BC46000001000080899598460000C7
