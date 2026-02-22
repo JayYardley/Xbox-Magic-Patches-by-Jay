@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Tom Clancy's Ghost Recon 2 - Summit Strike
+region=Global
+version=5553004D (US-077) {086C90A9}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x11c94:909090909090909090909090909090909090
