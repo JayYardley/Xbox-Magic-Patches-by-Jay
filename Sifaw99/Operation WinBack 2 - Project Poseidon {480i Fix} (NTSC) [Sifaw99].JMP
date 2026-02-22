@@ -1,8 +1,8 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
-game-title=WinBack 2 - Project Poseidon
-region=GLOBAL
-version=4B4F0008 (KO-008)
+game-title=Operation WinBack 2 - Project Poseidon
+region=NTSC
+version=4B4F0008 (KO-008) {10C442F1}
 author=Sifaw99
 notes=480p Forced
 # 480i (Interlaced) -> 480p (Progressive)
