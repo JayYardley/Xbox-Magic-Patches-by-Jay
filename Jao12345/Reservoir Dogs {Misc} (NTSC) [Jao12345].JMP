@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Reservoir Dogs
+region=NTSC
+version=534300FF (SC-255) {17D903D7}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x2554b7:9090
