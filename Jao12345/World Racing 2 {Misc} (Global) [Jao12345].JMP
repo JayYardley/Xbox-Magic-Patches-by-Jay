@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=World Racing 2
+region=NTSC, JAPAN, PAL
+version=544D0012 (TM-018) {CB7A989B}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x1051f7:909090
