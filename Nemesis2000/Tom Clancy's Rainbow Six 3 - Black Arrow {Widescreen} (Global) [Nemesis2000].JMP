@@ -1,8 +1,8 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Tom Clancy's Rainbow Six 3 - Black Arrow
-region=NTSC
-version=55530037 (US-055)
+region=Global
+version=55530037 (US-055) {27889DA6}
 author=Nemesis2000
 notes=
 #Widescreen
