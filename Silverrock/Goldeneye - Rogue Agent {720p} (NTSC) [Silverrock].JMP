@@ -2,7 +2,7 @@
 system=Xbox
 game-title=Goldeneye: Rogue Agent
 region=NTSC
-version=4541005D (EA-093)
+version=4541005D (EA-093) {A0C1D53E}
 author=Silverrock
 notes="Some slowdown here and there" Added float fix to maybe correct either the FMV/loading screens or pause menu.
 #Float Edit Test
