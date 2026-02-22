@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Hitman - Blood Money
+region=All Regions
+version=534300FA (SC-250) {D4E20BD3} {71237DB6} {9482E7CD}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+03CCEB16C7866414000002000080EB0AC786641400
+03CCEB16C7866414000001000080EB0AC786641400
