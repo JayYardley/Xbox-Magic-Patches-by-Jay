@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Worms 4 - Mayhem
+region=NTSC
+version=4D4A0017 (MJ-023) {E5770DBD}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+588B4C24648944246CB8020000008944247C898424
+588B4C24648944246CB8010000008944247C898424
