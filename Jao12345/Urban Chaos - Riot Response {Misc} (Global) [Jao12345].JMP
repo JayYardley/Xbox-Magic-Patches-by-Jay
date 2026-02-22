@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Urban Chaos - Riot Response
+region=Global
+version=534300F7 (SC-247) {9077890F}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x7bea5:01
+#60 FPS
+0x7c021:01
