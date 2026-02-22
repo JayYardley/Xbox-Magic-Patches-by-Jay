@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Hitman 2 - Silent Assassin
+region=All Regions
+version=45530009 (ES-009)
+author=Jao12345
+notes=60 FPS. All region xbes work except the CDX demo.
+#60 FPS
+578BF17413
+578BF1EB13
