@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Vexx
+region=All Regions
+version=41430005 (AC-005) {C661CB98} {0B7D7B56}
+author=Author Unknown
+notes=Widescreen
+#Widescreen
+24500000803FC744243C0000803FC74424280000803FC74424140000803FE8
+24500000803FC744243CABAAAA3FC7442428ABAAAA3FC74424140000803FE8
