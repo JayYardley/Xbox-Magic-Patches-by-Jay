@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Need For Speed - Most Wanted - Black Edition
+region=All Regions
+version=4541007B (EA-123) {8949CF89} {2E40A51A} {DC1CEE6A} {B58F982D} {237192EA} {B9264B45} {0D8FA7F5}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+25FFFFFF7F0502
+25FFFFFF7F0501
