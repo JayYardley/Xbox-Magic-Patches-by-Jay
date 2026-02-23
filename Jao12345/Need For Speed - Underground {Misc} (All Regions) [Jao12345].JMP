@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Need For Speed - Underground
+region=All Regions
+version=45410047 (EA-071) {45CF0576} {8E98E679} {7E84F7CC}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+C025010000808D4C24044051C74424340000000089
+C025010000808D4C24049051C74424340000000089
