@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Nickelodeon - Tak - The Great Juju Challenge
+region=NTSC, JAPAN & PAL
+version=545100F4 (TQ-244) {39F4617E} {3885C448}
+author=Jao12345
+notes=60 FPS. One PAL version doesn't work.
+#60 FPS
+2A000000C705A89F4A0002000080E812B90A0085C0
+2A000000C705A89F4A0001000080E812B90A0085C0
