@@ -2,9 +2,9 @@
 system=Xbox
 game-title=X-Men - Next Dimension
 region=NTSC
-version=41560007 (AV-007)
+version=41560007 (AV-007) {2C10C6B3} {E5323B8B}
 author=Esppiral
-notes=
+notes=Widescreen
 #Widescreen
 00D91C24A5C74348ABAAAA3FC7434C
 00D91C24A5C74348398EE33FC7434C
