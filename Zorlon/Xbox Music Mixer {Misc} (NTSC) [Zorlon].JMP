@@ -1,0 +1,19 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Xbox Music Mixer
+region=NTSC
+version=4D53005A (MS-090) {7B10EF6B}
+author=Zorlon
+notes=FATX HDD Fix
+#Header Edit - Allowed Media & Region Flags
+0x220:FF010040
+#FATX HDD Fix
+0xAB6BD:33C0B006A35C003700909090
+#FATX HDD Fix
+0xAC4E3:9090909090
+#FATX HDD Fix
+0xC04BC:EB
+#FATX HDD Fix
+0x114F83:9090909090
+#FATX HDD Fix
+0x28EC77:90909090

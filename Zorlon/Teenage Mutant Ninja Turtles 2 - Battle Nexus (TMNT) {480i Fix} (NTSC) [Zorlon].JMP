@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Teenage Mutant Ninja Turtles 2 - Battle Nexus (TMNT)
+region=NTSC
+version=4B4E0023 (KN-035) {CCD044F3}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x198:200032000000000000
+#480i Fix
+0x1F4141:508B4730508B472C518B4F04906A0090

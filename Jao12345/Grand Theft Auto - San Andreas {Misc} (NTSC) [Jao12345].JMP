@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Grand Theft Auto - San Andreas
+region=NTSC
+version=545400A3 (TT-163) {E3B76459}
+author=Jao12345
+notes=60 FPS. Dense areas drop the FPS regardless.
+#60 FPS
+F88D4801390D74275F0074ED6A016A00FF74240CE8C7
+F88D4801390D74275F0090906A016A00FF74240CE8C7

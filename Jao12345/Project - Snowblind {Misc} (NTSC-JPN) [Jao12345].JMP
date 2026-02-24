@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Project - Snowblind
+region=NTSC, JAPAN
+version=45530019 (ES-025) {363DE9EC}
+author=Jao12345
+notes=60 FPS. This patch is to be applied to "bo3gm.xbe", not "default.xbe".
+#[Apply to "bo3gm.xbe"]60 FPS
+00007506893DA4A866008B5424306878A866008D4C2434B8
+00007506893DA4A8660066BA01006878A866008D4C2434B8

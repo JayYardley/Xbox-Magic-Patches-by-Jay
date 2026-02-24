@@ -4,8 +4,8 @@ game-title=Halo 2
 region=NTSC, JAPAN, PAL
 version=4D530064 (MS-100) {A5B0B715}
 author=Applesauceman
-notes=Port of Grimdoomer's 720p Patch to the 1.5 DLC xbe.<br>Work in progress.<br>This patch was put together temporarily.<br>The author will release a full version when it's ready.<br>Config file required next to xbe in game folder.<br>Download config file here: https://jayxbox.com/All-Patches/titles/Halo%202/DLC_00000803_4D530064/hd_config.ini
-#[-]Download config file here: https://jayxbox.com/All-Patches/titles/Halo%202/DLC_00000803_4D530064/hd_config.ini
+notes=Port of Grimdoomer's Halo 2 HD 1.0 Patch to the 1.5 DLC xbe.<br>Work in progress.<br>This patch was put together temporarily.<br>Grimdoomer has released a later version [1.1].<br>Config file required next to xbe in game folder.<br>Download config file here: https://jayxbox.com/All-Patches/titles/Halo%202/apple1.0/hd_config.ini<br><br>More info here: https://github.com/grimdoomer/Halo-2-HD
+#[-]Download config file here: https://jayxbox.com/All-Patches/titles/Halo%202/apple1.0/hd_config.ini
 DEADBEEF
 DEADBEEF
 #720p HD

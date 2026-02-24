@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Links 2004 
+region=All Regions
+version=4D53005D (MS-093) {12BE6BC3} {8A8048B9} {7A4032F4}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x2605b:01000000
+#60 FPS
+0x1e04b4:01000000
+#60 FPS
+0x1e0590:9090909090
+#60 FPS
+0x1e05a0:9090

@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=GoldenEye - Rogue Agent
+region=All Regions
+version=4541005D (EA-093) {A0C1D53E} {5ABAF281} {52EAD3BC} {854C0BA7} {292C0E10}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+020000808B8E84
+010000808B8E84

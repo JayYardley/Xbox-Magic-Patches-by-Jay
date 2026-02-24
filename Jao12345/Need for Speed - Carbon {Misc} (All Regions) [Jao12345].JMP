@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Need for Speed - Carbon
+region=All Regions
+version=4541009E (EA-158) {28B6FB0B} {2FFC9DDC} {E96A016D} {A45A76CD}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+F7D81BC025FFFFFF7F0502000080C745C412000000
+F7D81BC025FFFFFF7F0501000080C745C412000000

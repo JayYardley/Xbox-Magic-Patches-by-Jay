@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Medal of Honor - European Assault
+region=All Regions
+version=4541005E (EA-094) {DFF8AD90} {14777919} {7B7B2CB9} {3292813B} {6F55E0CB}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+8B158CDC38002BD03BD172F48B8E840000008B01FF50
+8B158CDC38002BD03BD190908B8E840000008B01FF50

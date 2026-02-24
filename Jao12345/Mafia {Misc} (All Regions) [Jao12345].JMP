@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Mafia
+region=All Regions
+version=54540009 (TT-009)
+author=Jao12345
+notes=60 FPS
+#60 FPS
+3D008B7C24102BC63BC773178BF72BF056E869C4FD
+3D008B7C24102BC63BC7EB178BF72BF056E869C4FD
