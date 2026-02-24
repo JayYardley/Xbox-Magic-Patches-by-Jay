@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=TMNT(TM)2
+region=All Regions
+version=4B4E0023 (KN-035) {CCD044F3} {A5499DAA}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+53566A02
+53566A01
