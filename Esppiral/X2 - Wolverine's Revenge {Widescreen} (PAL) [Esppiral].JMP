@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=X2 - Wolverine's Revenge
+region=All Regions
+version=41560008 (AV-008) {05265493} {8CCA6942} {BBA97D78} {37F52EEC}
+author=Esppiral
+notes=Widescreen
+#Widescreen
+2FBA683F7D
+AAAAAA3F7D
