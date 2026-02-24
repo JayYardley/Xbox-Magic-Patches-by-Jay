@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Nickelodeon - Tak 2 - The Staff Of Dreams
+region=NTSC, JAPAN
+version=5451008B (TQ-139) {076350BC}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+0x252934:01
