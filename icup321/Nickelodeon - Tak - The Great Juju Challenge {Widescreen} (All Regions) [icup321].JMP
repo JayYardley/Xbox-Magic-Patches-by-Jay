@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Nickelodeon - Tak - The Great Juju Challenge
+region=All Regions
+version=545100F4 (TQ-244) {39F4617E} {0B42C15E} {3885C448}
+author=icup321
+notes=Widescreen
+#Widescreen
+804000007A4400007F43ABAAAA3F0AD7233C0000A04000
+804000007A4400007F43398EE33F0AD7233C0000A04000
