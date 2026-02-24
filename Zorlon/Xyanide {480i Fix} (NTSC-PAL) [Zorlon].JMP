@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Xyanide
+region=NTSC, PAL
+version=50430001 (PC-001) {C15C3496}
+author=Zorlon
+notes=480i Fix
+#Header Edit - Allowed Media & Region Flags
+0x220:FF0100C007
+#480i Fix
+0x248BE1:508B4730508B472C518B4F04906A0090
