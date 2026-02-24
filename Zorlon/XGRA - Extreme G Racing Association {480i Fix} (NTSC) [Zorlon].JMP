@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=XGRA - Extreme G Racing Association
+region=NTSC
+version=41430014 (AC-020) {5575476E}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x210:51721858C2761D67
+#480i Fix
+0x7A900:00
+#480i Fix
+0xF9B11:508B4730508B472C518B4F04906A0090
