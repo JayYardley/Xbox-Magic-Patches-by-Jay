@@ -5,6 +5,6 @@ region=GLOBAL
 version=50430001 (PC-001)
 author=Sifaw99
 notes=480p Forced
-# 480i (Interlaced) -> 480p (Progressive)
+#480i (Interlaced) -> 480p (Progressive)
 8B5728508B4730508B472C518B4F0452
 508B4730508B472C518B4F04906A0090
