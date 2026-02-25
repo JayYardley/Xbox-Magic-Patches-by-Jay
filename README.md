@@ -11,7 +11,7 @@ Every .JMP patch that I create is typically based on the work of others, and all
 All patches are provided as-is, many are untested as of writing this. If you are an author of a patch and want credit, let me know!
 
 <Details>
-  <summary>Details about the .JMP format:</summary>
+  <summary><b>Details about the .JMP format:</b></summary>
 
 #### Here is what the filename of a patch should be formatted like to make it easy for others:
 + >Game Title
