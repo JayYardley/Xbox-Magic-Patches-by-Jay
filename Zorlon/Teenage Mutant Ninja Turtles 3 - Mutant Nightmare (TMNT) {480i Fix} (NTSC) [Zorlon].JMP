@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=TMNT(R)3
+region=NTSC
+version=4B4E002A (KN-042) {5197BB1D}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x198:20003300000000
+#480i Fix
+0x2D11C1:508B4730508B472C518B4F04906A0090
