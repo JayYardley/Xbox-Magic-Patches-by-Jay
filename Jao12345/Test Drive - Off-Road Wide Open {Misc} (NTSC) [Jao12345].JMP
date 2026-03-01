@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Test Drive - Off-Road Wide Open
+region=NTSC
+version=49470001 (IG-001) {36A259D5}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+1F007D083905782D1F007CF856565656E84F020500E8
+1F007D083905782D1F00909056565656E84F020500E8
