@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=TMNT
+region=NTSC
+version=4B4E001B (KN-027) {1EFDB4F7}
+author=Zorlon
+notes=480i Fix
+# Header Edit - Allowed Media & Region Flags
+0x220:FF00000007000080
+# 480i Fix
+0x35C:02
+# 480i Fix
+0xE2EB4:EB
+# 480i Fix
+0x180851:508B4730508B472C518B4F04906A0090
