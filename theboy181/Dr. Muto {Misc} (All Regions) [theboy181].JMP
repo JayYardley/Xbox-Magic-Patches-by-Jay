@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Dr. Muto
+region=All Regions
+version=4D570011 (MW-017) {E3E37105} {4AD4F7AA}
+author=theboy181
+notes=60 FPS
+#60 FPS
+0891F403000089417CB8020000008AD08981A80000
+0891F403000089417CB8010000008AD08981A80000
