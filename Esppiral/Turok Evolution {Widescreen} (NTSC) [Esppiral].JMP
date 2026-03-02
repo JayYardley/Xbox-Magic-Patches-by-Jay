@@ -1,10 +1,10 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Turok Evolution
-region=NTSC
-version=41430004 (AC-004)
+region=All Regions
+version=41430004 (AC-004) {2681481F} {D1B3D02F} {B7501BF7} {637C837F}
 author=Esppiral
-notes=
+notes=Widescreen. Code also found in Alpha version!
 #Widescreen
 0000803F742C4874164875378B842490
 0000403F742C4874164875378B842490
