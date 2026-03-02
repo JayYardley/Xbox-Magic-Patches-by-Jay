@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Baldur's Gate - Dark Alliance
+region=NTSC
+version=5655001A (VU-026) {DF0DB6D8} {F082A8BF}
+author=theboy181
+notes=Force Level of Detail High
+#Increase Level of Detail
+668B8BAA0200006685C97D618B8B94020000518D54
+668B8BAA0200006685C97E618B8B94020000518D54
