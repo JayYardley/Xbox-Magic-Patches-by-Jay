@@ -1,0 +1,39 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Godfather
+region=NTSC
+version=4541007D (EA-125) {EB5B10F0}
+author=SPPV
+notes=720p.
+#Header Edit - Allowed Media & Region Flags
+0x220:FF010040
+#720p
+0x557914:803F
+#720p
+0x563E00:803F
+#720p
+0x380A4:40
+#720p
+0x544EE:40
+#720p
+0x5464F:40
+#720p
+0x57921:40
+#720p
+0x58F3E:40
+#720p
+0x5A318:40
+#720p
+0x5B21C:40
+#720p
+0x2B2834:40
+#720p
+0x2B286F:40
+#720p
+0x4A0581:508B4730508B472C518B4F04906A0090
+#720p
+0x4BA1B3:40
+#720p
+0x51A9D0:398EE3
+#720p
+0x51F5AC:803F
