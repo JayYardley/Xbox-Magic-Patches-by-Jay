@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=True Crime - New York City
+region=NTSC, JAPAN
+version=41560045 (AV-069) {BBEC2DEE}
+author=Zorlon
+notes=HDD FATX fix.<br>Patch isn't applied to any xbe file.<br>Download patch here: https://jayxbox.com/All-Patches/titles/True%20Crime%20-%20New%20York%20City/True%20Crime%20-%20New%20York%20City%20[NTSC-U]%20[HDD%20File%20Names%20Fix].zip
+#Patch isn't applied to any xbe file.Download patch here: https://jayxbox.com/All-Patches/titles/True%20Crime%20-%20New%20York%20City/True%20Crime%20-%20New%20York%20City%20[NTSC-U]%20[HDD%20File%20Names%20Fix].zip
+DEADBEEF
+DEADBEEF
