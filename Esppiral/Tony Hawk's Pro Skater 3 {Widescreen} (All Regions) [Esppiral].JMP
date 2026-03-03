@@ -1,13 +1,13 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
 game-title=Tony Hawk's Pro Skater 3
-region=NTSC
-version=41560004 (AV-004)
+region=All Regions
+version=41560004 (AV-004) {931DA35F} {D0BD8E27}
 author=Esppiral
-notes=
-#Widescreen A
+notes=Widescreen.
+#Widescreen
 40DBB63F
 8CB9F33F
-#Widescreen B
+#Widescreen
 40DBB63F
 8CB9F33F
