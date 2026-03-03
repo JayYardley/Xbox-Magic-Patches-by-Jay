@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Top Gear - RPM Tuning
+region=NTSC
+version=4B420007 (KB-007) {163252FA}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x1EBFF3:9090528B502C6A00
