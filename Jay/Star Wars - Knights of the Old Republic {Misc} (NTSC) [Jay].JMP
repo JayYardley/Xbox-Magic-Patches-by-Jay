@@ -1,0 +1,11 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Star Wars - Knights of the Old Republic
+region=NTSC
+version=4C410003 (LA-003) {6E2085A8}
+author=Jay
+notes=Experimental patch, runs like dogwater on stock RAM and a light overclock.<br>Probably not that much better on 128MB and a 1.0GHz CPU to be quite frank.<br><br>Use one or the other, they both target the same code in the D3DParameters
+#4xMSAA[-]
+0x291E54:c7054033470022220000
+#2xMSAA
+0x291E54:c7054033470012200000
