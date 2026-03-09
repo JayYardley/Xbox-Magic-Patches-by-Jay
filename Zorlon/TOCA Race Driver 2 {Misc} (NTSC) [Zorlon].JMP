@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=TOCA Race Driver 2
+region=NTSC
+version=434D0011 (CM-017) {8DA7F6D8}
+author=Zorlon
+notes=HDD FATX/480i Fix.<br><br>Step 1. Apply patch to default.xbe.<br>Step 2. Rename this file inside game dir;<br>From<br><b>/shaders/PostProduction_ScalarDepthVelocityTransformShader.xvu</b><br>To<br><b>/shaders/PostProduction_ScalarDepthVelocityTran.xvu</b>
+#Header Edit - Allowed Media & Region Flags
+0x220:FF010040
+#HDD FATX Fix
+0x306DCA:2E7876750000000000000000000000
+#HDD FATX Fix
+0x306E04:002E
+#480i Fix
+0x26DA01:508B4730508B472C518B4F04906A0090
