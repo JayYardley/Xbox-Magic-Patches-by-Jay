@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Thing
+region=All Regions
+version=5655000D (VU-013) {765B18EA} {FDF453C5} {4E3FB902}
+author=Jao12345
+notes=60 FPS
+#60 FPS
+D20F95C141898D
+D20F95C190898D
