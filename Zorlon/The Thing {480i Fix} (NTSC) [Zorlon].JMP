@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Thing
+region=NTSC
+version=5655000D (VU-013) {765B18EA}
+author=Zorlon
+notes=480i Fix
+#480i Fix
+0x214:FFFFFF
+#480i Fix
+0x4040FF:EB62
+#480i Fix
+0x404163:8061289F0BF0E993FFFFFF
