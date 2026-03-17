@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Sims - Bustin' Out
+region=PAL
+version=45410043 (EA-067) {C213A321}
+author=Zorlon
+notes=HDD Fix
+#Header Edit - Allowed Media & Region Flags
+0x220:FF00000007000080
+#HDD Fix
+0x35C:02
+#HDD Fix
+0xF1B07:EB
