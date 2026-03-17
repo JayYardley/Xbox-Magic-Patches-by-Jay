@@ -1,0 +1,13 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Harry Potter and the Prisoner of Azkaban
+region=All Regions
+version=4541004C (EA-076) {3FAF60C4} {A4068F48}
+author=JCRocky5
+notes=HDD patch + optional right stick left/right inversion
+# patch out dirty disc call
+0x196D89:9090909090
+# Invert RStickX
+0x21A0E6:BCA122
+# Invert RStickX
+0x21A1BC:800000B8
