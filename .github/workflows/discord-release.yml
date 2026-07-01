@@ -1,13 +1,24 @@
 - name: Send Discord embed
+  env:
+    TITLE: ${{ github.event.release.tag_name }}
+    URL: ${{ github.event.release.html_url }}
+    BODY: ${{ github.event.release.body }}
+
   run: |
+    PAYLOAD=$(jq -n \
+      --arg title "$TITLE" \
+      --arg url "$URL" \
+      --arg desc "$BODY" \
+      '{
+        embeds: [{
+          title: $title,
+          description: $desc,
+          url: $url,
+          color: 5814783
+        }]
+      }')
+
     curl -H "Content-Type: application/json" \
-    -X POST \
-    -d "{
-      \"embeds\": [{
-        \"title\": \"New Release: ${{ github.event.release.tag_name }}\",
-        \"description\": \"${{ github.event.release.body }}\",
-        \"url\": \"${{ github.event.release.html_url }}\",
-        \"color\": 5814783
-      }]
-    }" \
-    ${{ secrets.DISCORD_WEBHOOK }}
+      -X POST \
+      -d "$PAYLOAD" \
+      "${{ secrets.DISCORD_WEBHOOK }}"
