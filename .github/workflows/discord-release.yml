@@ -1,21 +1,43 @@
-- name: Send Discord embed
-  run: |
-    python3 - <<EOF
-    import os, json, requests
+name: Discord File Notify
 
-    payload = {
-      "embeds": [{
-        "title": "New Release: ${{ github.event.release.tag_name }}",
-        "url": "${{ github.event.release.html_url }}",
-        "description": """${{ github.event.release.body }}""",
-        "color": 5814783
-      }]
-    }
+on:
+  push:
+    branches:
+      - main
 
-    requests.post(
-      os.environ["WEBHOOK"],
-      json=payload
-    )
-    EOF
-  env:
-    WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Send Discord notification with file list
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          for sha in $(git rev-list ${{ github.event.before }}..${{ github.event.after }}); do
+            MSG=$(git log -1 --pretty=format:%s $sha)
+            AUTHOR=$(git log -1 --pretty=format:%an $sha)
+            SHORT_SHA=$(git rev-parse --short $sha)
+            FILES=$(git diff-tree --no-commit-id --name-only -r $sha | sed 's/^/• /')
+
+            PAYLOAD=$(jq -n \
+              --arg title "[Xbox-Magic-Patches-by-Jay] New commit by $AUTHOR" \
+              --arg desc "**$MSG** (\`$SHORT_SHA\`)" \
+              --arg files "$FILES" \
+              --arg url "https://github.com/${{ github.repository }}/commit/$sha" \
+              '{
+                embeds: [{
+                  title: $title,
+                  description: $desc,
+                  url: $url,
+                  color: 5814783,
+                  fields: [{name: "Files changed", value: $files}]
+                }]
+              }')
+
+            curl -H "Content-Type: application/json" -d "$PAYLOAD" "$WEBHOOK_URL"
+          done
