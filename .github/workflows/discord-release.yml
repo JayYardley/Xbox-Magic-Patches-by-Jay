@@ -14,18 +14,25 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Send Discord notification with file list
+      - name: Send Discord notification for added files
         env:
           WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
           for sha in $(git rev-list ${{ github.event.before }}..${{ github.event.after }}); do
+            ADDED_FILES=$(git diff-tree --no-commit-id --diff-filter=A --name-only -r $sha)
+
+            # Skip this commit if no files were added
+            if [ -z "$ADDED_FILES" ]; then
+              continue
+            fi
+
             MSG=$(git log -1 --pretty=format:%s $sha)
             AUTHOR=$(git log -1 --pretty=format:%an $sha)
             SHORT_SHA=$(git rev-parse --short $sha)
-            FILES=$(git diff-tree --no-commit-id --name-only -r $sha | sed 's/^/• /')
+            FILES=$(echo "$ADDED_FILES" | sed 's/^/• /')
 
             PAYLOAD=$(jq -n \
-              --arg title "[Xbox-Magic-Patches-by-Jay] New commit by $AUTHOR" \
+              --arg title "[Xbox-Magic-Patches-by-Jay] New file(s) added by $AUTHOR" \
               --arg desc "**$MSG** (\`$SHORT_SHA\`)" \
               --arg files "$FILES" \
               --arg url "https://github.com/${{ github.repository }}/commit/$sha" \
@@ -35,7 +42,7 @@ jobs:
                   description: $desc,
                   url: $url,
                   color: 5814783,
-                  fields: [{name: "Files changed", value: $files}]
+                  fields: [{name: "Files added", value: $files}]
                 }]
               }')
 
