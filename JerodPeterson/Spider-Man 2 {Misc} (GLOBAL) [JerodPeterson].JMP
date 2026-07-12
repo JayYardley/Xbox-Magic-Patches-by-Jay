@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Spider-Man 2
+region=NTSC, JAPAN, PAL
+version=4156002B (AV-043) {DD47E5DA}
+author=JerodPeterson
+notes=60FPS
+#60Fps
+000080000000000100000100000000000000443A5C
+000080000000000100000000000000000000443A5C
