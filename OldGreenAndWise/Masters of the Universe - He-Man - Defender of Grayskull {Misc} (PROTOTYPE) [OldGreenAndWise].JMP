@@ -1,0 +1,10 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Masters of the Universe - He-Man - Defender of Grayskull (Prototype)
+region=DEBUG
+version=00000000 {D4D80AE9}
+author=OldGreenAndWise
+notes=Fixes crash when Xbox dashboard has 720p enabled. Root cause: AvSendTVEncoderOption option 6 returns 0x00430104 when 720p is on, causing FUN_0016421d to select mode entry 11 (NV2A=0x0801010D, interlaced bit set). CDevice_KickOff takes the interlaced path using device[0x1db]=0 as FIFO ptr, GPU stalls. Fix: CMiniport_GetDisplayCapabilities always returns 0x00480104, ensuring entry 4 (NV2A=0x88070701, progressive) is always selected.<br><br>Apply to original default.xbe.
+# 720p crash fix
+33C03905A8C3
+B804014800C3
