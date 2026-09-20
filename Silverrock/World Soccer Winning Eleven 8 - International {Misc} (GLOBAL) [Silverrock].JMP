@@ -1,0 +1,207 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Winning Eleven 8 International
+region=NTSC&JPN
+version=4B4E0027 (KN-039) {08D819E8}
+author=Silverrock
+notes=Select only one group that you wish to patch.
+#Header Edit - Limit RAM 64MB (OFF)
+0x124:01
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x4:568B742408803DE500010000741981FE8800000073118B44240C3B04B5E03D330075045EC20800E9F52F31008B442408803DE500010000745683F810721883F81277138B54240C83FA017620C744240C01000000EB1683F81575118B54240C83FA017608C744240C0100000083F80D721E83F81577198B4C2404C1E10501C18B54240C3B148DE03B33007503C20C0083F80CE9CC393100803DE5000100007419A1784033008B4C24048B5424083B9488880F00007503C2080083EC085355E96E5C3100C605E500010000538B1D78403300E92DA23100C605E5000100015F5E5BC300
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x58243:19
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x582BF:19
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x582F2:19
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x58357:19
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x58591:0005
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x58596:D002
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x682D0:30
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x6833E:00
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x313060:E9DFCFCEFF
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x313AA0:E9CBC5CEFF9090
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x315D70:E966A3CEFF
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x31A340:E9C25DCEFF9090
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x31A3EB:01
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x31A3FE:E9175DCEFF
+#[-]1. 768x672 render, 720p canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x32219A:01
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x4:568B742408803DE500010000741981FE8800000073118B44240C3B04B5E03D330075045EC20800E9F52F31008B442408803DE500010000745683F810721883F81277138B54240C83FA017620C744240C01000000EB1683F81575118B54240C83FA017608C744240C0100000083F80D721E83F81577198B4C2404C1E10501C18B54240C3B148DE03B33007503C20C0083F80CE9CC393100803DE5000100007419A1784033008B4C24048B5424083B9488880F00007503C2080083EC085355E96E5C3100C605E500010000538B1D78403300E92DA23100C605E5000100015F5E5BC300
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x2865:E876230200E871230200C3
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x28A0:C1FFFFFF
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x53F9C:D002
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x53FA2:05
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x58243:19
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x582BF:19
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x582F2:19
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x58357:19
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x58591:0005
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x58596:D002
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x5A33B:10
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x5A33D:E08561
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x5A403:10
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x5A405:6C9D61
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x67A81:B90002000090BAC001000090
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x682D0:30
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x6833B:02
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x6833E:00
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x2D08D8:10
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x2D08DA:E08561
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x2D08FD:10
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x2D08FF:6C9D61
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x313060:E9DFCFCEFF
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x313AA0:E9CBC5CEFF9090
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x315D70:E966A3CEFF
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x31A340:E9C25DCEFF9090
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x31A3EB:01
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x31A3FE:E9175DCEFF
+#[-]2. 720p render, 720p canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x32219A:01
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x4:568B742408803DE500010000741981FE8800000073118B44240C3B04B5E03D330075045EC20800E9F52F31008B442408803DE500010000745683F810721883F81277138B54240C83FA017620C744240C01000000EB1683F81575118B54240C83FA017608C744240C0100000083F80D721E83F81577198B4C2404C1E10501C18B54240C3B148DE03B33007503C20C0083F80CE9CC393100803DE5000100007419A1784033008B4C24048B5424083B9488880F00007503C2080083EC085355E96E5C3100C605E500010000538B1D78403300E92DA23100C605E5000100015F5E5BC300
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x2865:E876230200E871230200C3
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x28A0:C1FFFFFF
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x53F9C:E0
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x53FA1:D0
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x58243:0F
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x582BF:0F
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x582F2:0F
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x58357:0F
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x58591:D0
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x682D0:30
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x6833B:02
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x6833E:00
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x313060:E9DFCFCEFF
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x313AA0:E9CBC5CEFF9090
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x315D70:E966A3CEFF
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x31A340:E9C25DCEFF9090
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x31A3EB:01
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x31A3FE:E9175DCEFF
+#[-]3. 480p render/canvas, 30FPS VSync, performance optimizations, triple buffer.
+0x32219A:01
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x4:568B742408803DE500010000741981FE8800000073118B44240C3B04B5E03D330075045EC20800E9F52F31008B442408803DE500010000745683F810721883F81277138B54240C83FA017620C744240C01000000EB1683F81575118B54240C83FA017608C744240C0100000083F80D721E83F81577198B4C2404C1E10501C18B54240C3B148DE03B33007503C20C0083F80CE9CC393100803DE5000100007419A1784033008B4C24048B5424083B9488880F00007503C2080083EC085355E96E5C3100C605E500010000538B1D78403300E92DA23100C605E5000100015F5E5BC300
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x53F9C:E0
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x53FA1:D0
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x58243:0F
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x582BF:0F
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x582F2:0F
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x58357:0F
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x58591:D0
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x682D0:30
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x6833E:00
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x313060:E9DFCFCEFF
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x313AA0:E9CBC5CEFF9090
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x315D70:E966A3CEFF
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x31A340:E9C25DCEFF9090
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x31A3EB:01
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x31A3FE:E9175DCEFF
+#[-]4. 480p render/canvas, 60FPS VSync, performance optimizations, triple buffer.
+0x32219A:01
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x4:568B742408803DE500010000741981FE8800000073118B44240C3B04B5E03D330075045EC20800E9F52F31008B442408803DE500010000745683F810721883F81277138B54240C83FA017620C744240C01000000EB1683F81575118B54240C83FA017608C744240C0100000083F80D721E83F81577198B4C2404C1E10501C18B54240C3B148DE03B33007503C20C0083F80CE9CC393100803DE5000100007419A1784033008B4C24048B5424083B9488880F00007503C2080083EC085355E96E5C3100C605E500010000538B1D78403300E92DA23100C605E5000100015F5E5BC300
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x53F9C:E0
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x53FA1:D0
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x58243:0F
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x582BF:0F
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x582F2:0F
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x58357:0F
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x58591:D0
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x682D0:30
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x313060:E9DFCFCEFF
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x313AA0:E9CBC5CEFF9090
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x315D70:E966A3CEFF
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x31A340:E9C25DCEFF9090
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x31A3EB:01
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x31A3FE:E9175DCEFF
+#[-]5. 480p render/canvas, VSync OFF, unlockedFPS, performance optimizations, double buffer.
+0x32219A:01
