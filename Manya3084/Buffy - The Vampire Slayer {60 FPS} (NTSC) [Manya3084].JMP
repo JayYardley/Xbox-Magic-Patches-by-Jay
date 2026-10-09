@@ -1,0 +1,15 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Buffy - The Vampire Slayer
+region=NTSC
+version=45410012 (EA-018) {05456722}
+author=Manya3084
+notes=NTSC USA default.xbe. Gameplay presents every vblank and the frame loop keeps the original game speed. Stacks with one resolution patch. Not a vsync-off patch.
+#60 fps
+0x8530:C7865401000001000000
+#60 fps
+0x28b021:B801000000
+#60 fps
+0x58a588:83E201
+#60 fps
+0x58a7fb:3BC9
