@@ -1,0 +1,9 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Juiced
+region=NTSC, JAPAN, PAL
+version=545100EF (TQ-239) {64CAA3B4}
+author=Jay
+notes=Increases FOV a little bit. That's it.
+#Increase FOV 1.333 -> 1.5
+0x312214:0000C0
