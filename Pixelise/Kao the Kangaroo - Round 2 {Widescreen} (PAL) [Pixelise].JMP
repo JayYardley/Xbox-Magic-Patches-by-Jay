@@ -4,7 +4,7 @@ game-title=Kao the Kangaroo - Round 2
 region=PAL
 version=4A570003 (JW-003) {56D9936B}
 author=Pixelise
-notes=Widescreen. Direct copy of icup321's patch.
+notes=Widescreen.
 #Widescreen
 0x1FDDD:7477E3
 #Widescreen
