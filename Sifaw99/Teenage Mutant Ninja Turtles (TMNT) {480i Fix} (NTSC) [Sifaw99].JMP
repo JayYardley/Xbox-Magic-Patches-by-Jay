@@ -1,8 +1,8 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
-game-title=Teenage Mutant Ninja Turtles
-region=GLOBAL
-version=4B4E001B (KN-027)
+game-title=Teenage Mutant Ninja Turtles (TMNT)
+region=NTSC
+version=4B4E001B (KN-027) {1EFDB4F7}
 author=Sifaw99
 notes=480p Forced
 # 480i (Interlaced) -> 480p (Progressive)
