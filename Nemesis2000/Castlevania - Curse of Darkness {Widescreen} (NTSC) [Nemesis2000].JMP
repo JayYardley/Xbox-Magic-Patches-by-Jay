@@ -1,10 +1,10 @@
 #Jay's Magic Patcher (www.jayxbox.com)
 system=Xbox
-game-title=Castlevania - Curse of Darkness [00000001]
+game-title=Castlevania - Curse of Darkness
 region=NTSC&JPN
-version=4B4E002D (KN-045)
+version=4B4E002D (KN-045) [00000001]
 author=Nemesis2000
-notes=
+notes=Widescreen
 #Widescreen
 0x2d83:F0D80A00F30F5905B7BF3A
 #FMV's Fix A
