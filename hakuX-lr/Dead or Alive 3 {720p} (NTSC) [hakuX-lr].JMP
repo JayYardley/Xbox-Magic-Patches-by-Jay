@@ -4,7 +4,7 @@ game-title=Dead or Alive 3
 region=NTSC
 version=4D53002D (MS-045) {33D6EDF3}
 author=hakuX-lr
-notes=Native 1280x720 widescreen with corrected menu, HUD and video layout. Tested on hakuX-lr at 59.9 fps: https://github.com/portare-ch/hakuX-lr<br>Should also work on original Xbox hardware with a 128 MB RAM upgrade. Enable 720p and widescreen, and remove the 64 MB XBE RAM limit. Apply all records to default.xbe.
+notes=Native 1280x720 widescreen with corrected menu, HUD and video layout. Tested on hakuX-lr at 59.9 fps: https://github.com/portare-ch/hakuX-lr Should also work on original Xbox hardware with a 128 MB RAM upgrade. Enable 720p and widescreen, and remove the 64 MB XBE RAM limit. Apply all records to default.xbe.
 #128 MB - Direct3D address mask
 0x001A21BD:07
 #128 MB - Direct3D address mask
