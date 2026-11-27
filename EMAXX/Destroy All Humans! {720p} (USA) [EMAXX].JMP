@@ -1,0 +1,79 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=Destroy All Humans!
+region=USA
+version=54510026 (TQ-038) {2A416522}
+author=EMAXX_Claude (hand analysis)
+notes=UI scaled to 720p in the layout engine (menus match 480p; HUD keeps anchors; on-screen markers like the PK target circle follow their targets). Retail XBE (all section hashes verified). 1280x720 progressive using the game's own widescreen path. NTSC only. Enable 720p in the dashboard, component/HDMI out, REQUIRES 128MB RAM. Temporarily lifts the Cerbios 3.1.0 kernel's 64MB contiguous-memory limit while the game reserves its memory, then restores it (does nothing on other BIOSes). Skips Bink videos whose textures can't be created instead of crashing.
+#XBE init flags 0x5->0x1: clear 'limit to 64MB' so a 128MB console gives the game the extra RAM 720p needs
+0x00000124:01000000
+#Kernel fix 1/3: header size 0xE38->0x1000 so the loader also maps the unused bytes after the header (used for the code below)
+0x00000108:00100000
+#Kernel fix 2/3 (code in header slack, VA 0x10E40): if this is Cerbios 3.1.0 (bytes DF3F0000 at 0x8002255F), raise MmAllocateContiguousMemoryEx's hard limit from page 0x3FDF (64MB) to 0x7FDF (128MB), then run the game's memory probe
+0x00000E40:51B85F2502808138DF3F0000751A9CFA0F20C15181E1FFFFFEFF0F22C1C700DF7F0000590F22C19D59E942720C00
+#Kernel fix 3/3: game memory probe now calls the kernel fix first (pool = largest block - 18MB, as originally, but the largest block can now be above 64MB)
+0x000C8237:E8048CF3FF
+#Memory limit: put Cerbios' 64MB contiguous limit back (7FDF -> 3FDF) right after the game reserves its pool, so soft reset (IGRDash), screenshots and later apps see a normal kernel (header slack VA 0x10F80)
+0x00000F80:5051813D5E250280B9DF7F00751E9CFA0F20C15181E1FFFFFEFF0F22C1C7055F250280DF3F0000590F22C19D59588B159C0A2500E9A3720C00
+#Memory limit: hook just after the pool allocation (VA 0xD8256)
+0x000C8256:E9258DF3FF90
+#UI layout: base size x2/x1.5 (hook)
+0x000E9695:E9E677F1FF90909090909090
+#UI layout: offset from parent x2/x1.5 (hook)
+0x000E9777:E93077F1FF
+#UI layout: extra X offset x2 (hook)
+0x000E97DC:E90377F1FF909090
+#UI layout: extra Y offset x1.5 (hook)
+0x000E97EC:E90B77F1FF909090
+#UI text: glyph scale 1.0 -> 2.0/1.5 in text element constructor (hook)
+0x000F3D82:E98DD1F0FF9090909090909090909090
+#UI scaling code (header slack VA 0x10E80)
+0x00000E80:F30F104660F30F5905F00F0100F30F114668F30F104664F30F5905F40F0100F30F11466CE9F8870E00
+#UI scaling code (header slack VA 0x10EAC)
+0x00000EAC:F30F104670F30F5905F80F0100F30F584678F30F114678F30F104674F30F5905FC0F0100F30F58467CF30F11467C8B465CA808E998880E00
+#UI scaling code (header slack VA 0x10EE4)
+0x00000EE4:F30F108688000000F30F5905F00F0100E9EB880E00
+#UI scaling code (header slack VA 0x10EFC)
+0x00000EFC:F30F10868C000000F30F5905F40F0100E9E3880E00
+#UI scaling code (header slack VA 0x10F14)
+0x00000F14:C786F400000000000040C786F80000000000C03FE9652E0F00
+#UI scale constants 2.0, 1.5, 1.0, 0.5 (VA 0x10FF0)
+0x00000FF0:000000400000C03F0000803F0000003F
+#GetScreenSize (script): height -> 480 (mov edi,480) - scripts lay out in the same 640x480 units as the UI data
+0x000EE7C7:BFE001000090
+#GetScreenSize (script): width -> 640 (mov eax,640) - scripts lay out in the same 640x480 units as the UI data
+0x000EE7CD:B88002000090
+#GetScreenSizeX (script): -> 640 - scripts lay out in the same 640x480 units as the UI data
+0x000EE7F5:BA8002000090
+#GetScreenSizeY (script): -> 480 - scripts lay out in the same 640x480 units as the UI data
+0x000EE815:BAE001000090
+#UI world-to-screen: convert projected 1280x720 pixels to 640x480 UI units (header slack VA 0x10F40)
+0x00000F40:FF742408FF742408E813070D0084C074268B542404F30F1002F30F5905FC0F0100F30F1102F30F104204F30F5905E00F0100F30F114204C20800
+#UI world-to-screen: constant 2/3 (VA 0x10FE0)
+0x00000FE0:ABAA2A3F
+#UI world-to-screen: script marker 1 uses the converted projection (call @ VA 0x2F3EE)
+0x0001F3EE:E84D1BFEFF
+#UI world-to-screen: script marker 2 uses the converted projection (call @ VA 0x2F4EB)
+0x0001F4EB:E8501AFEFF
+#UI world-to-screen: script marker 3 uses the converted projection (call @ VA 0x319D4)
+0x000219D4:E867F5FDFF
+#UI world-to-screen: world-attached UI element (target reticle) uses the converted projection (call @ VA 0x61DB2)
+0x00051DB2:E889F1FAFF
+#NTSC mode setup: back buffer height 480->720 (mov eax,1E0h @ VA 0x000E07DA)
+0x000D07DB:D0020000
+#NTSC mode setup: back buffer width 640->1280
+0x000D07EB:00050000
+#Always take the 480p branch: Flags |= D3DPRESENTFLAG_PROGRESSIVE
+0x000D07FB:9090
+#Always take the widescreen branch: Flags |= D3DPRESENTFLAG_WIDESCREEN + 16:9 camera
+0x000D080F:9090
+#Bink video fix: jump to a check when a video frame texture is created (was: crash on NULL texture)
+0x001131FE:89068BC8E9AA070000
+#Bink video fix (padding cave): if the texture is NULL, skip; otherwise continue as normal
+0x001139B1:85C9742FE8062AFCFFE948F8FFFF
+#Bink video fix (padding cave): close the video and report 'could not open', like a missing video file
+0x001139E4:5FE8B6F2FFFFE9CCF7FFFF
+#Bink cleanup fix: only free video textures that exist (was: Release on a NULL texture after a skipped video)
+0x00112D2C:833F007412668B0EE8F736FCFFFF37E8A0A60B00832700909090
+#Bink cleanup fix: loop jumps back to the new loop start
+0x00112D53:D8
