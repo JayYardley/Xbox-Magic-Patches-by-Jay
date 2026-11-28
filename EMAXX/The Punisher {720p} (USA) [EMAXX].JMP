@@ -1,0 +1,63 @@
+#Jay's Magic Patcher (www.jayxbox.com)
+system=Xbox
+game-title=The Punisher
+region=USA
+version=54510018 (TQ-024) {15447B0D}
+author=EMAXX
+notes=1280x720 progressive using the game's own widescreen path.<br>Menus use the 640x480 layouts scaled by the game; HUD elements anchored to their screen edges (native sprite size).<br>Menu/transition Bink movies scaled to full screen; fullscreen intro movies centered at native size.<br>Only default.xbe is changed (no .vpp edits).<br><br>Enable 720p in the dashboard, component/HDMI out, REQUIRES 128MB RAM.<br><br>Temporarily lifts the Cerbios 3.1.0 kernel's 64MB contiguous-memory limit while the game reserves its startup pools, then restores it before graphics init (does nothing on other BIOSes).
+#XBE init flags 0x80000005->0x80000001: clear 'limit to 64MB' so a 128MB console gives the game the extra RAM 720p needs
+0x00000124:01000080
+#Header size 0x105C->0x1400 so the loader also maps the unused bytes after the header (used for the code caves below)
+0x00000108:00140000
+#Kernel fix 1/4 (code in header slack, VA 0x11060): if this is Cerbios 3.1.0 (mov ecx,3FDFh at 0x8002255E), raise MmAllocateContiguousMemoryEx's limit to 0x7FDF (128MB) so the game's ~34MB of startup pools land in the upper 64MB
+0x00001060:9C60FABE5E250280803EB97520817E01DF3F000075170F20C089C325FFFFFEFF0F22C0C74601DF7F00000F22C3619D8B0D18010100E9D09E1B00
+#Kernel fix 2/4: entry point (VA 0x1CAF64) runs the code above before the CRT allocates its pools
+0x001BAF64:E9F760E4FF90
+#Kernel fix 3/4 (header slack VA 0x110A0): put Cerbios' 64MB limit back (7FDF -> 3FDF) before the D3D device is created, so framebuffers stay below 64MB (IGRDash and screenshots keep working)
+0x000010A0:9C60FABE5E250280803EB97520817E01DF7F000075170F20C089C325FFFFFEFF0F22C0C74601DF3F00000F22C3619D83EC4453BB01000000E93CEC1500
+#Kernel fix 4/4: hook at the start of graphics init (VA 0x16FD10)
+0x0015FD10:E98B13EAFF90909090
+#Resolution: back buffer height 480->720 (graphics init call, VA 0x131722)
+0x00121723:D0020000
+#Resolution: back buffer width 640->1280 (VA 0x131727)
+0x00121728:00050000
+#Video mode: always take the game's widescreen branch (ignore the dashboard widescreen flag)
+0x00166F76:9090
+#Video mode: always take the widescreen branch (ignore the internal widescreen toggle)
+0x00166F80:9090
+#Video mode: always set the progressive flag (ignore the dashboard 480p flag)
+0x00166FB7:9090
+#Video mode: always set the progressive flag (ignore the internal progressive toggle)
+0x00166FC0:9090
+#Menus: gui.tbl has no #1280x720 section (the game hangs looking for it), so look up #640x480 instead - width (VA 0xAE288)
+0x0009E288:B98002000090
+#Menus: gui.tbl lookup - height (the menu system scales the 640x480 layouts itself)
+0x0009E295:B8E0010000
+#HUD: hud.tbl was only copied to the live HUD table at 512/640 width (empty HUD + tutorial popup crash at 1280) - copy at any width (VA 0x976E8)
+0x000876E8:9090
+#HUD: copy hud.tbl at any width, second path (VA 0x979C0)
+0x000879C0:9090
+#HUD: hud.tbl copy #1 -> anchor code below
+0x000876EA:E8F199F7FF90909090909090909090909090909090
+#HUD: hud.tbl copy #2 -> anchor code below
+0x000879C2:E81997F7FF909090909090909090909090
+#HUD anchor code (header slack VA 0x110E0): live[i] = hud.tbl[i] + offset[i]
+0x000010E0:6031C98B048D9017440003048D0011010089048DB81844004183F94A72E561C3
+#HUD anchor offsets (VA 0x11100, 37 x/y pairs): right +640, center +320, bottom +240, middle +120; relative offsets/widths unchanged
+0x00001100:000000000000000000000000F0000000000000000000000000000000000000000000000000000000000000000000000040010000F000000080020000F0000000000000000000000000000000000000000000000000000000000000000000000000000000F000000040010000780000004001000000000000800200007800000000000000F000000000000000F00000004001000000000000000000007800000040010000F000000080020000780000000000000000000000800200000000000040010000F0000000000000000000000000000000000000000000000078000000800200000000000040010000F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000F0000000
+#Bink: scaled tile draw (header slack VA 0x11230) - menu/transition movies drawn at x2/x1.5 to fill 1280x720
+0x00001230:5356578BD885C00F8C900000003B05647BBA000F8D840000008D0CC08B14CD2010CA000FB772040FB77A0685F60F846A0000006A00FF742420FF7424206A006A0057566A006A008BC70FAF055C3BD40099B9E0010000F7F9508BC60FAF05583BD40099B980020000F7F9508B4424400FAF055C3BD40099B9E0010000F7F9508B4424400FAF05583BD40099B980020000F7F9508BC3E8768E160083C4345F5E5BC3
+#Bink: movie tile 1 -> scaled draw (VA 0x1C2F14)
+0x001B2F14:E817E3E4FF
+#Bink: movie tile 2 -> scaled draw (VA 0x1C2F40)
+0x001B2F40:E8EBE2E4FF
+#Bink: movie tile 3 -> scaled draw (VA 0x1C2F6E)
+0x001B2F6E:E8BDE2E4FF
+#Bink: movie tile 4 -> scaled draw (VA 0x1C2FA0)
+0x001B2FA0:E88BE2E4FF
+#Bink: movie tile 5 -> scaled draw (VA 0x1C2FCE)
+0x001B2FCE:E85DE2E4FF
+#Bink: centered direct copy (header slack VA 0x11330) - fullscreen intro movies copy straight to the screen buffer and can't be stretched, so center them
+0x00001330:A1D07EBA008B4C24088B155C3BD4002B5004D1FA790233D2528B15583BD4002B10D1FA790233D252FF355C3BD4008B54241881C9000000F05251B903000080E88C6F2D00E9FD1A1B00
+#Bink: fullscreen movie copy (VA 0x1C2B77) -> centered copy
+0x001B2B77:E9B4E7E4FF
